@@ -1,0 +1,135 @@
+{
+  "audit_id": "rfp-unseen-round2-2026-10-26",
+  "samples": [
+    {
+      "id": "round2-bid1-01",
+      "bid_key": "Bid1",
+      "question": "When must Form 1295 be included, and is a publicly traded company required to complete it?",
+      "expected_answer": "Form 1295 should be submitted with the RFP response; a publicly traded company does not need to complete it.",
+      "expected_answer_keywords": ["submitted with", "RFP response", "publicly traded", "does not"],
+      "expected_evidence_keywords": ["Form 1295", "submitted with the RFP response"],
+      "expected_citations": [
+        {"source": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf", "page": 4}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "round2-bid1-02",
+      "bid_key": "Bid1",
+      "question": "Must desktop computers be secured to desks or tables with a lockbox or similar structure?",
+      "expected_answer": "No. Dallas ISD states that the desktops will not be secured that way.",
+      "expected_answer_keywords": ["No", "not", "secured"],
+      "expected_evidence_keywords": ["not securing desktops"],
+      "expected_citations": [
+        {"source": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf", "page": 2}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "round2-bid1-03",
+      "bid_key": "Bid1",
+      "question": "Under what circumstance is hot-swap stock intended to be used?",
+      "expected_answer": "Hot-swap stock is intended only when warranty work will take longer than five business days.",
+      "expected_answer_keywords": ["warranty", "longer than", "5 business days"],
+      "expected_evidence_keywords": ["hot swap", "longer than 5 business days"],
+      "expected_citations": [
+        {"source": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf", "page": 2}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "round2-bid1-04",
+      "bid_key": "Bid1",
+      "question": "Are the anticipated equipment quantities a one-time purchase or distributed across the contract?",
+      "expected_answer": "The quantities are distributed over the life of the contract.",
+      "expected_answer_keywords": ["spread", "life of the contract"],
+      "expected_evidence_keywords": ["spread over life of the contract"],
+      "expected_citations": [
+        {"source": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf", "page": 2}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "round2-bid1-05",
+      "bid_key": "Bid1",
+      "question": "What device-provisioning work is required for Windows devices and for Chromebooks?",
+      "expected_answer": "Windows devices require Autopilot, while Chromebooks require enrollment in Google Management.",
+      "expected_answer_keywords": ["Autopilot", "Chromebooks", "Google Management"],
+      "expected_evidence_keywords": ["autopilot", "enrollment in Google Management"],
+      "expected_citations": [
+        {"source": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf", "page": 4}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "round2-bid2-01",
+      "bid_key": "Bid2",
+      "question": "By what date and time must vendor questions be sent, and what subject line must the email use?",
+      "expected_answer": "Questions must be emailed by June 1, 2024 at 2:00 PM EDT using the subject line QUESTION for Dell Laptop #E20P4600040.",
+      "expected_answer_keywords": ["June 1, 2024", "2:00 PM", "QUESTION for Dell Laptop", "E20P4600040"],
+      "expected_evidence_keywords": ["Questions Due", "06/01/2024", "QUESTION for Dell Laptop"],
+      "expected_citations": [
+        {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 2}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "round2-bid2-02",
+      "bid_key": "Bid2",
+      "question": "May the department change the requested quantity, and what limits that change?",
+      "expected_answer": "Yes. The department may purchase more or less than the specified quantity to the extent allowed by available funding.",
+      "expected_answer_keywords": ["more or less", "funding"],
+      "expected_evidence_keywords": ["more or less", "limited by funding"],
+      "expected_citations": [
+        {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 2}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "round2-bid2-03",
+      "bid_key": "Bid2",
+      "question": "What identifying and delivery information must appear with an invoice?",
+      "expected_answer": "The invoice must identify the contractor, reference the State-assigned PORFP number, include the invoice date, number and amount due, and include proof of delivery and equipment serial numbers.",
+      "expected_answer_keywords": ["contractor", "PORFP", "invoice", "proof of delivery", "serial numbers"],
+      "expected_evidence_keywords": ["Contractor name", "PORFP number", "Proof of delivery", "serial numbers"],
+      "expected_citations": [
+        {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 2}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "round2-bid2-04",
+      "bid_key": "Bid2",
+      "question": "What business need explains the laptop refresh, including the referenced employee group?",
+      "expected_answer": "The office needs to refresh its laptops and acquire enough devices for MD529 employees added to the staff as of June 1, 2023.",
+      "expected_answer_keywords": ["refresh", "MD529", "June 1, 2023"],
+      "expected_evidence_keywords": ["refresh of laptops", "MD529 employees", "June 1, 2023"],
+      "expected_citations": [
+        {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 3}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "round2-bid2-05",
+      "bid_key": "Bid2",
+      "question": "What warranty proof is due upon award, and when does the three-year coverage begin and end?",
+      "expected_answer": "A warranty certificate or affidavit must be presented upon award; coverage begins on the delivery date and ends three years after delivery.",
+      "expected_answer_keywords": ["certificate or affidavit", "upon award", "delivery", "three years"],
+      "expected_evidence_keywords": ["Warranty certificate or Affidavit", "Date of Delivery", "3 years following"],
+      "expected_citations": [
+        {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 3}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    }
+  ]
+}

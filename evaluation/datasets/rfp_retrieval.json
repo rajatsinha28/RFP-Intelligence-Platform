@@ -1,0 +1,157 @@
+{
+  "samples": [
+    {
+      "bid_key": "Bid1",
+      "question": "What is the final proposal due date after all addenda?",
+      "expected_answer": "July 9, 2024 at 2:00 PM CST",
+      "expected_answer_keywords": ["July 9, 2024", "2:00 PM", "CST"],
+      "expected_evidence_keywords": ["extend the due date", "July 9, 2024", "2:00 PM CST"],
+      "expected_sources": ["Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf"],
+      "expected_pages": [1]
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "What was the original solicitation due date before Addendum 2?",
+      "expected_answer": "June 27, 2024 at 2:00 PM",
+      "expected_answer_keywords": ["June 27, 2024", "2:00 PM"],
+      "expected_evidence_keywords": ["Solicitation Due", "27-JUN-2024", "14:00:00"],
+      "expected_sources": ["JA-207652 Student and Staff Computing Devices FINAL.pdf"],
+      "expected_pages": [2]
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "When and how is the pre-proposal meeting held?",
+      "expected_answer": "June 10, 2024 at 2:00 PM CST through Microsoft Teams",
+      "expected_answer_keywords": ["June 10, 2024", "2:00 PM", "Teams"],
+      "expected_evidence_keywords": ["pre-proposal meeting", "TEAMS", "June 10, 2024"],
+      "expected_sources": ["JA-207652 Student and Staff Computing Devices FINAL.pdf"],
+      "expected_pages": [2]
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "What is the initial contract term and maximum duration with renewals?",
+      "expected_answer": "Three years initially, with two one-year renewals, not to exceed five years",
+      "expected_answer_keywords": ["3", "renewal", "5 years"],
+      "expected_evidence_keywords": ["Initial Term", "Renewal 1", "Renewal 2", "5 years"],
+      "expected_sources": ["JA-207652 Student and Staff Computing Devices FINAL.pdf"],
+      "expected_pages": [2]
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "Which deployment services must vendors be able to perform?",
+      "expected_answer": "Software installation, asset tagging and etching, device deployment and setup, and asset control reporting",
+      "expected_answer_keywords": ["software installation", "asset tagging", "deployment", "asset control reporting"],
+      "expected_evidence_keywords": ["software installation", "asset tagging and etching", "device deployment", "asset control reporting"],
+      "expected_sources": ["JA-207652 Student and Staff Computing Devices FINAL.pdf"],
+      "expected_pages": [7]
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "Which devices require laser etching according to Addendum 1?",
+      "expected_answer": "Laptops only",
+      "expected_answer_keywords": ["Laptops"],
+      "expected_evidence_keywords": ["only require etching on Laptops"],
+      "expected_sources": ["Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf"],
+      "expected_pages": [1]
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "How quickly must warranty repairs or replacements be performed?",
+      "expected_answer": "Within five business days after the District reports the issue",
+      "expected_answer_keywords": ["five", "business days"],
+      "expected_evidence_keywords": ["five (5) business days", "reporting the issue"],
+      "expected_sources": ["JA-207652 Student and Staff Computing Devices FINAL.pdf"],
+      "expected_pages": [4]
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "What proof must an authorized reseller submit with its proposal?",
+      "expected_answer": "Factory-authorized repair and maintenance certifications",
+      "expected_answer_keywords": ["factory-authorized", "certifications"],
+      "expected_evidence_keywords": ["factory-authorized repair", "maintenance certifications"],
+      "expected_sources": ["JA-207652 Student and Staff Computing Devices FINAL.pdf"],
+      "expected_pages": [3]
+    },
+    {
+      "bid_key": "Bid2",
+      "question": "What is the closing date and time for the Dell laptop bid?",
+      "expected_answer": "June 10, 2024 at 2:00 PM EDT",
+      "expected_answer_keywords": ["June 10, 2024", "2:00 PM", "EDT"],
+      "expected_evidence_keywords": ["Closing Date", "06/10/2024", "02:00 PM EDT"],
+      "expected_sources": ["Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"]
+    },
+    {
+      "bid_key": "Bid2",
+      "question": "How must responses to the Dell laptop PORFP be submitted?",
+      "expected_answer": "Through the eMaryland Marketplace Advantage eMMA e-Procurement system",
+      "expected_answer_keywords": ["eMaryland", "eMMA"],
+      "expected_evidence_keywords": ["only be accepted", "eMMA", "not be accepted by email"],
+      "expected_sources": ["PORFP_-_Dell_Laptop_Final.pdf"],
+      "expected_pages": [1]
+    },
+    {
+      "bid_key": "Bid2",
+      "question": "What are the PORFP and eMMA project numbers?",
+      "expected_answer": "PORFP #E20P4600040 and eMMA project BPM044557",
+      "expected_answer_keywords": ["E20P4600040", "BPM044557"],
+      "expected_evidence_keywords": ["PORFP Number", "E20P4600040", "BPM044557"],
+      "expected_sources": ["PORFP_-_Dell_Laptop_Final.pdf"],
+      "expected_pages": [1]
+    },
+    {
+      "bid_key": "Bid2",
+      "question": "What manufacturer authorization is required from the master contractor?",
+      "expected_answer": "The contractor must be an authorized reseller for Dell",
+      "expected_answer_keywords": ["authorized reseller", "Dell"],
+      "expected_evidence_keywords": ["authorized reseller for Dell", "Letter of Authorization"],
+      "expected_sources": ["PORFP_-_Dell_Laptop_Final.pdf"],
+      "expected_pages": [2]
+    },
+    {
+      "bid_key": "Bid2",
+      "question": "Which environmental affidavit must the contractor provide?",
+      "expected_answer": "A Mercury Affidavit",
+      "expected_answer_keywords": ["Mercury Affidavit"],
+      "expected_evidence_keywords": ["must provide a Mercury Affidavit"],
+      "expected_sources": ["PORFP_-_Dell_Laptop_Final.pdf"],
+      "expected_pages": [2]
+    },
+    {
+      "bid_key": "Bid2",
+      "question": "What is the required delivery window after award?",
+      "expected_answer": "Within 45 days of award",
+      "expected_answer_keywords": ["45 days", "Award"],
+      "expected_evidence_keywords": ["Delivery within 45 days of Award"],
+      "expected_sources": ["PORFP_-_Dell_Laptop_Final.pdf"],
+      "expected_pages": [2]
+    },
+    {
+      "bid_key": "Bid2",
+      "question": "Which laptop and docking station models and quantities are requested?",
+      "expected_answer": "30 Dell Latitude 5550 laptops and 30 WD22TB4 Dell Thunderbolt 4 docks",
+      "expected_answer_keywords": ["Latitude 5550", "30", "WD22TB4"],
+      "expected_evidence_keywords": ["Dell Latitude 5550", "WD22TB4", "30"],
+      "expected_sources": ["PORFP_-_Dell_Laptop_Final.pdf"],
+      "expected_pages": [3]
+    },
+    {
+      "bid_key": "Bid2",
+      "question": "What extended hardware warranty is required for the purchased machines?",
+      "expected_answer": "A three-year Dell Limited Hardware Warranty",
+      "expected_answer_keywords": ["3 Years", "Dell Limited Hardware Warranty"],
+      "expected_evidence_keywords": ["Dell Limited Hardware Warranty", "3 Years"],
+      "expected_sources": ["PORFP_-_Dell_Laptop_Final.pdf"],
+      "expected_pages": [3]
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "Which vendor won the contract and what was the final awarded price?",
+      "expected_answer": "The supplied solicitation documents do not identify a winning vendor or final awarded price.",
+      "expected_answer_keywords": [],
+      "expected_evidence_keywords": [],
+      "expected_sources": [],
+      "expected_statuses": ["not_found", "insufficient_evidence"],
+      "negative_control": true
+    }
+  ]
+}

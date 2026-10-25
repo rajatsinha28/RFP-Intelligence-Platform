@@ -1,0 +1,719 @@
+{
+  "bid_id": "Bid1",
+  "fields": {
+    "Bid Number": {
+      "value": "JA-207652",
+      "sources": [
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 5,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-18-d51e168180a5",
+          "quote": "ADDENDUM No. 1 RFP JA-207652 Student and Staff Computing Devices The information in this Addendum is hereby incorporated and made part of any contract awarded pursuant to this solicitation. Please sign this addendum and submit along with your copies of the proposal. ALL OTHER PROVISIONS, AND OTHER TERMS AND CONDITIONS REMAIN UNCHANGED. BIDDERS ARE REQUIRED TO ACKNOWLEDGE AND RETURN/SUBMIT A COPY OF THIS ADDENDUM WITH THEIR PROPOSAL. Company Name: Submitter’s Name/Title: Address: City, State and Zip Code: Email Address: Submitter’s Signature: Telephone No. Fax No. 800 # (if available) Date: END OF ADDENDUM",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Explicitly identified as RFP JA-207652 in Addendum 1.",
+      "status": "supported"
+    },
+    "Title": {
+      "value": "Student and Staff Computing Devices",
+      "sources": [
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 5,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-18-d51e168180a5",
+          "quote": "ADDENDUM No. 1 RFP JA-207652 Student and Staff Computing Devices The information in this Addendum is hereby incorporated and made part of any contract awarded pursuant to this solicitation. Please sign this addendum and submit along with your copies of the proposal. ALL OTHER PROVISIONS, AND OTHER TERMS AND CONDITIONS REMAIN UNCHANGED. BIDDERS ARE REQUIRED TO ACKNOWLEDGE AND RETURN/SUBMIT A COPY OF THIS ADDENDUM WITH THEIR PROPOSAL. Company Name: Submitter’s Name/Title: Address: City, State and Zip Code: Email Address: Submitter’s Signature: Telephone No. Fax No. 800 # (if available) Date: END OF ADDENDUM",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Title stated in the addendum heading.",
+      "status": "supported"
+    },
+    "Due Date": {
+      "value": "July 9, 2024 at 2:00 PM CST",
+      "sources": [
+        {
+          "document_id": "52da7cb7-6d96-4876-b410-2b9fea27a1be",
+          "file": "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 1,
+          "chunk_id": "52da7cb7-6d96-4876-b410-2b9fea27a1be-v1-0-709c9f8b2a3a",
+          "quote": "Page 1 | 1 ADDENDUM No. 2 RFP JA-207652 Student and Staff Computing Devices The Purpose of this Addendum is to extend the due date of this RFP. The new due date for this RFP will be July 9, 2024 at 2:00 PM CST. The information in this Addendum is hereby incorporated and made part of any contract awarded pursuant to this solicitation. Please sign this addendum and submit along with your copies of the proposal. ALL OTHER PROVISIONS AND OTHER TERMS AND CONDITIONS REMAIN UNCHANGED. BIDDERS ARE REQUIRED TO ACKNOWLEDGE AND RETURN/SUBMIT A COPY OF THIS ADDENDUM WITH THEIR PROPOSAL.",
+          "doc_type": "addendum",
+          "addendum_number": 2
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Addendum 2 explicitly extends the deadline, superseding the original June 27 deadline and Addendum 1's statement that an extension was not anticipated. Time zone retained as written.",
+      "status": "supported"
+    },
+    "Bid Submission Type": {
+      "value": "Electronic or manual submission is permitted. Electronic responses do not require use of the PDF version of the solicitation; the addendum does not identify the electronic submission channel. Manual responses should have direct edits on the PDF and may include supporting documentation where space is insufficient. For manual submission, provide one original hard copy in a sealed envelope, sent by mail/FedEx/UPS or similar to Dallas ISD Procurement Services, 9400 N Central Expwy, Ste 1510, Attn: Staff Member and BID NUMBER, Dallas, TX 75231. Fax and email submissions are not accepted.",
+      "sources": [
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 4,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-14-17cb34f5e500",
+          "quote": "of the attributes, however, require a response that exceeds the space available in the PDF version of the solicitation. For example, in the SCOPE AND SPECIFICATIONS OF THE PROPOSAL section, attribute 1 asks the vendor to \"provide examples of previously awarded contracts that demonstrate your company's ability,\" attribute 2 asks the vendor to \"describe your company's ability to perform each of the deployment services,\" etc. How should vendors comply with the requirement to use the PDF version of the solicitation and yet respond to such attributes in the very limited space provided under the instruction to \"Provide our answer below\"? Answer: If responding electronically, a pdf version is not r",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        }
+      ],
+      "confidence": 0.98,
+      "notes": "The addendum expressly distinguishes electronic and manual responses, correcting the draft's manual-only characterization without establishing that email or fax is permitted.",
+      "status": "supported"
+    },
+    "Term of Bid": {
+      "value": "Three-year initial agreement with two successive one-year extensions by mutual consent, not to exceed five years total.",
+      "sources": [
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 2,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-3-177b7c3161e6",
+          "quote": "to the other party no fewer than ninety (90) days prior to the expiration of the then current term of the Contract. If the District fails to timely exercise any of the options to renew, all remaining options to renew shall expire and terminate 1.3 Requirements LENGTH OF CONTRACT The term of this proposal shall be for a three (3) year agreement with two (2) successive one (1) year extensions based on the long-range needs of the District and mutual consent of both parties not to exceed five (5) years total. SCOPE AND SPECIFICATIONS OF THE PROPOSAL The Dallas Independent School District (Dallas ISD or District) is soliciting offers for the goods and/or services specified in this document.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Extensions depend on the District's long-range needs and both parties' mutual consent.",
+      "status": "supported"
+    },
+    "Pre Bid Meeting": {
+      "value": "June 10, 2024 at 2:00 PM CST via Microsoft Teams video conference; attendance highly encouraged.",
+      "sources": [
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 2,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-1-47d3f685e33b",
+          "quote": "Buyer ALZATE, JASMINE Email JALZATE@dallasisd.org 1 Header Information 1.1 General Information First Advertisement Date/Issue Date 26-MAY-2024 08:00:00 Second Advertisement Date 02-JUN-2024 08:00:00 Pre-Proposal Meeting 10-JUN-2024 14:00:00 Questions Deadline 11-JUN-2024 16:00:00 Questions Response from the District 13-JUN-2024 18:00:00 Solicitation Due 27-JUN-2024 14:00:00 Anticipated Evaluation & Sel 11-JUL-2024 14:00:00 Anticipated Approval/Award 22-AUG-2024 18:00:00 Pre-Proposal A pre-proposal meeting will be held at 2:00 PM CST via TEAMS video conference on June 10, 2024. Please submit (in writing) any questions regarding this RFP.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "The RFP describes attendance as highly encouraged, not mandatory. Time zone retained as written.",
+      "status": "supported"
+    },
+    "Installation": {
+      "value": "Desktop setup does not require securing desktops under or on a surface with a lockbox or similar structure.",
+      "sources": [
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 2,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-5-42744cbb013e",
+          "quote": "ADDENDUM No. 1 RFP JA-207652 Student and Staff Computing Devices \n\n12. References are particularly important to our company as well as DISD. Can you please share the timeline DISD purchasing/M/WBE team will be reaching out to our references so we can remind them to be on the lookout during that timeline, reinforcing the urgency to respond to DISD request? Answer: References will be contacted within the week following the solicitation due date. 13. During the desktop setup, is it necessary to secure the desktop under or on a surface? I.e. a lockbox or similar structure on the desks/tables. Answer: No, we are not securing desktops. 14. What are the district's expectations for coverage under th",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "The addendum explicitly excludes securing desktops from the setup requirements.",
+      "status": "supported"
+    },
+    "Bid Bond Requirement": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.95,
+      "notes": "Reviewed the supplied RFP insurance/bond provisions and addenda. They refer to requirements elsewhere but do not establish a specific bid bond requirement, amount, or percentage.",
+      "status": "not_found"
+    },
+    "Delivery Date": {
+      "value": "The awarded vendor must coordinate a schedule of deliveries with the Dallas ISD ED TECH department; no fixed delivery date is specified.",
+      "sources": [
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 4,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-15-e924981662a0",
+          "quote": "supporting documentation can be included as part of the submission for those areas that are not sufficient in space. 33. Pricing: Do you require any Imaging on your devices? Every DT, Laptop, and tablet device has an OS installed. What additional software do you require for the software installation requirement? Answer: For Windows devices, autopilot is required. For Chromebooks, enrollment in Google Management is required. 34. Deployment: Does Dallas ISD have a deployment schedule? Number of devices to each address, which devices to each address. How many deployments per week, month and when? Answer: Any awarded vendor will need to coordinate a schedule of deliveries with the Dallas ISD ED ",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "The addendum explicitly establishes how delivery timing will be determined. The anticipated September quote requests are not treated as a delivery deadline.",
+      "status": "supported"
+    },
+    "Payment Terms": {
+      "value": "Prime vendors must pay submitted invoices, including retainage, to subcontractors, suppliers, or other entities within 10 days of receiving District payment. Non-disputed subcontractor payments may not be withheld, and subcontractor retainage may not exceed 5%.",
+      "sources": [
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 51,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-205-18c172eba6fd",
+          "quote": "with required proof of payments) to its subcontractors with each pay application or as requested by the district. • Acceptable proof of payments includes: (1) Emails from the Subcontractor verifying the payment amount, date paid, school name and/or org #, and project information (2) Partial Lien Releases, (3) Cancelled Checks, or (4) Proof of Electronic Funds Transfer; • All Prime vendors must pay all submitted invoices, including retainage to subcontractors, suppliers, or entities within 10 days of receiving payment from the district; • No Prime vendor shall withhold a non-disputed subcontractor payment; • No Prime vendor may withhold retainage greater than 5% from the subcontractor.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.98,
+      "notes": "These are downstream payment obligations. The supplied evidence does not specify the District's payment deadline to the prime vendor.",
+      "status": "supported"
+    },
+    "Any Additional Documentation Required": {
+      "value": [
+        "Signed and acknowledged copies of Addenda 1 and 2 submitted with the proposal.",
+        "Pertinent literature/documentation for proposed products, goods, or services.",
+        "For resellers, copies of all factory-authorized repair and maintenance certifications with each proposal; supporting documentation demonstrating relevant competencies and references.",
+        "Completed, signed, and dated M/WBE Compliance Guidelines & Forms, with applicable supporting documentation such as M/WBE certificates, diversity/affirmative action/EEO plans, and joint venture, mentor-protégé, or teaming agreements.",
+        "Completed and signed Form 1295 attached to the bid response, unless the company is publicly traded.",
+        "Three business references for similar products/services, including company or school district name, address, phone, contact person, and email; Dallas ISD and its employees may not be references.",
+        "Executed EDGAR and/or FEMA certifications, if applicable.",
+        "A Letter of Intent for each proposed M/WBE subcontractor at contract negotiation or when requested by the M/WBE Department; not required with the initial proposal."
+      ],
+      "sources": [
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 5,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-18-d51e168180a5",
+          "quote": "ADDENDUM No. 1 RFP JA-207652 Student and Staff Computing Devices The information in this Addendum is hereby incorporated and made part of any contract awarded pursuant to this solicitation. Please sign this addendum and submit along with your copies of the proposal. ALL OTHER PROVISIONS, AND OTHER TERMS AND CONDITIONS REMAIN UNCHANGED. BIDDERS ARE REQUIRED TO ACKNOWLEDGE AND RETURN/SUBMIT A COPY OF THIS ADDENDUM WITH THEIR PROPOSAL. Company Name: Submitter’s Name/Title: Address: City, State and Zip Code: Email Address: Submitter’s Signature: Telephone No. Fax No. 800 # (if available) Date: END OF ADDENDUM",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        },
+        {
+          "document_id": "52da7cb7-6d96-4876-b410-2b9fea27a1be",
+          "file": "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 1,
+          "chunk_id": "52da7cb7-6d96-4876-b410-2b9fea27a1be-v1-0-709c9f8b2a3a",
+          "quote": "2 RFP JA-207652 Student and Staff Computing Devices The Purpose of this Addendum is to extend the due date of this RFP. The new due date for this RFP will be July 9, 2024 at 2:00 PM CST. The information in this Addendum is hereby incorporated and made part of any contract awarded pursuant to this solicitation. Please sign this addendum and submit along with your copies of the proposal. ALL OTHER PROVISIONS AND OTHER TERMS AND CONDITIONS REMAIN UNCHANGED. BIDDERS ARE REQUIRED TO ACKNOWLEDGE AND RETURN/SUBMIT A COPY OF THIS ADDENDUM WITH THEIR PROPOSAL. Company Name: Submitter’s Name/Title: Address: City, State and Zip Code: Email Address: Submitter’s Signature: Telephone No.",
+          "doc_type": "addendum",
+          "addendum_number": 2
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 9,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-24-71428611467d",
+          "quote": "The Offerors shall familiarize themselves with the relevant conditions in the material and labor markets prior to the submission of an offer. By submitting an offer, the Offeror represents that it has familiarized itself with existing and future market conditions and agrees to perform in full accordance with the Offer. The Offeror must comply with any insurance, bid bond, or liability requirements of the District as noted elsewhere in this solicitation document. The Offeror must include pertinent literature/documentation for the proposed products/goods or services.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 3,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-8-cfe3e82a5ee1",
+          "quote": "contracts resulting from this RFP, the District will seek competitive quotes from one or more of the awarded vendors. PROPOSAL SPECIFICATIONS Manufacturer or Authorized Reseller Qualifications For proposing vendors who are resellers, a copy of all factory-authorized repair and maintenance certifications must be submitted with each proposal. Vendors must provide demonstrated competencies and references in delivering the magnitude of devices listed on the price sheet. This supporting documentation may include details of past projects, statements in reference letters, and/or project plans.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 49,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-194-766adbc69898",
+          "quote": "Section 12. | During Bid/Proposal Submission M/WBE Forms. Submit the completed , signed, and dated M/WBE Compliance Guidelines & Forms by the due date. Include all M/WBE supporting documentation including, but not limited to M/WBE Certificates, Affirmative Action, Equal Employment Opportunity or Supplier Diversity Plan, signed, dated and notarized Joint Venture Agreement, signed, dated and notarized Mentor Protégé Agreement and Minutes or Prime-Subcontractor Teaming Agreement. Each proposal is evaluated independently against other proposers. M/WBE Scoring Criteria. The district’s M/WBE Evaluation Scoring Criteria has been established as follows: M/WBE Criteria Maximum Point Allocation A.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 14,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-40-04f5db3cad13",
+          "quote": "(bid) number as the identification number being requested and the contract name as a description of goods or services. Box 6: Please complete and sign, then attach the completed 1295 form with the bid response. Please acknowledge that you have read and understood that the district can not do business with your company without the submittal of this form. If your company is \"Publicly Traded\" you do not need to complete this form. Does the Vendor agree? ----------------------------------------------------------------------------------------------------------------------------------------------- Type ……………………………………………………………………………………………………………………………..",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 12,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-244-1f8ab9ef0b4b",
+          "quote": "| SUBCONTRACTOR INFORMATION | | | --- | --- | | Please indicate three business references that have contracted with your school district/company to provide like products and/or services. Include the school district/company name, address, phone number, contact person, and email address. Preferable references are from the Dallas and Fort Worth school districts that have used your services within the last three years. Additional references may be required. DO NOT INCLUDE DALLAS ISD OR DALLAS ISD EMPLOYEES AS A REFERENCE. Note: Failure to supply complete reference information may be grounds for proposal disqualification.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 32,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-148-088dabb92159",
+          "quote": "documents collectively the \"Agreement\") (3) General requirements outlined within the District's Solicitation document (4) Offeror's response to the solicitation document including services and pricing (5 )Any deviations listed on the District Deviation forms agreed to formally by the District (6) Any notice of award or acceptance by the District by Dallas ISD-issued Purchase Orders, the terms of any applicable Dallas solicitation, (RFP, RFQ, or similar solicitation) executed EDGAR Certifications and/or FEMA Certifications, if applicable (contract documents collectively the \"Agreement\") In the event of a conflict, the contract documents shall control in the order listed in this paragraph.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 48,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-187-1cc9d4360cbd",
+          "quote": "Last update 8.7.2020 Dallas ISD M/WBE Compliance Guidelines and Forms for Goods and Services #3002 Page | 8 Company Name: Bid/RFP No.: Section 11. | Letter of Intent (LOI) [Not required with the initial bid/proposal] To be submitted at the contract negotiation meeting with the district, or as requested by the M/WBE Department. Complete one LOI form for each proposed M/WBE subcontractor. Refer to Section 15 on Page 10 for additional information. Org/School: ________________________________________________________ Prime vendors must submit a Letter of Intent for each M/WBE Subcontractor who will be utilized to supply any services, labor or materials pursuant to the bid/proposal.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.97,
+      "notes": "Conditional requirements and post-proposal timing are identified separately. Addendum 1 clarifies that electronic responses do not require a PDF version; manual responses require direct PDF edits, with supporting attachments permitted where space is insufficient.",
+      "status": "supported"
+    },
+    "MFG for Registration": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.96,
+      "notes": "Reviewed the supplied manufacturer/reseller qualifications and addendum excerpts. Factory-authorized repair and maintenance certifications are required for resellers, but no manufacturer is named for registration.",
+      "status": "not_found"
+    },
+    "Contract or Cooperative to use": {
+      "value": "Dallas ISD RFP JA-207652, Student and Staff Computing Devices; optional Educational Purchasing Cooperative of North Texas (EPCNT) interlocal rider.",
+      "sources": [
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 5,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-18-d51e168180a5",
+          "quote": "ADDENDUM No. 1 RFP JA-207652 Student and Staff Computing Devices The information in this Addendum is hereby incorporated and made part of any contract awarded pursuant to this solicitation. Please sign this addendum and submit along with your copies of the proposal. ALL OTHER PROVISIONS, AND OTHER TERMS AND CONDITIONS REMAIN UNCHANGED. BIDDERS ARE REQUIRED TO ACKNOWLEDGE AND RETURN/SUBMIT A COPY OF THIS ADDENDUM WITH THEIR PROPOSAL. Company Name: Submitter’s Name/Title: Address: City, State and Zip Code: Email Address: Submitter’s Signature: Telephone No. Fax No. 800 # (if available) Date: END OF ADDENDUM",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 19,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-263-9ab05dd9c554",
+          "quote": "| PROPOSAL REQUIREMENT - The following attributes require a response | | | --- | --- | | INTERLOCAL AGREEMENT (\"Rider\") CONSENT FORM Dallas ISD is a member of the Educational Purchasing Cooperative of North Texas (EPCNT). Members of EPCNT add this possible rider to their solicitation documents. If the Vendor chooses \"YES\"; to allow EPCNT members to \"ride\" this Agreement (if any) the following will apply: Governmental entities utilizing Internal Governmental contracts with the Dallas ISD will be eligible, but not obligated, to purchase materials/services under the contract(s) awarded as a result of this solicitation.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "EPCNT members may purchase under the resulting contract if the vendor consents. Declining the rider has no adverse impact on proposal evaluation; use of EPCNT is not mandatory.",
+      "status": "supported"
+    },
+    "Model_no": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.99,
+      "notes": "Reviewed the supplied RFP, bid-page, and addendum excerpts. No specific device model number is stated. Addendum 1 requires vendors to provide their proposed make and model; it does not identify a model. JA-207652 is the solicitation number, not a device model.",
+      "status": "not_found"
+    },
+    "Part_no": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.99,
+      "notes": "Reviewed the supplied RFP, bid-page, and addendum excerpts. No manufacturer part number is provided. Solicitation numbers, pricing-line identifiers, and the request for purchase-order reference information do not establish a product part number.",
+      "status": "not_found"
+    },
+    "Product": {
+      "value": [
+        "Tier 1 Small Student Chromebook Laptop (Touch)",
+        "Tier 2 Large Student Chromebook Laptop (Non-Touch)",
+        "Tier 3 Student Windows Laptop",
+        "Student Tablet",
+        "Tier 1 Staff Laptop",
+        "Tier 2 Staff Laptop",
+        "Tier 1 Staff Basic Desktop",
+        "Tier 2 Staff Professional Desktop",
+        "Display Monitor - Touch",
+        "Display Monitor - Non-Touch"
+      ],
+      "sources": [
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 35,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-311-b6108ba3b878",
+          "quote": "| Line | Item, Rev | Target Quantity | Unit | Unit Price | Amount | Bid Minimum Release Amount | | --- | --- | --- | --- | --- | --- | --- | | 15.01 Tier 1 Small Student Chromebook Laptop (Touch) | | 50,000 | Each | | | | | 15.02 Tier 2 Large Student Chromebook Laptop (Non- Touch) | | 50,000 | Each | | | | | 16 STUDENT LAPTOPS - FOR EVALUATION PURPOSES (Pricing required to be considered for this category) | | | | | | | | 16.01 Tier 3 Student Windows Laptop | | 5,000 | Each | | | | | 17 STUDENT TABLETS - FOR EVALUATION PURPOSES (Pricing required to be considered for this category) | | | | | | | | 17.01 Student Tablet | | 50,000 | Each | | | | | 18 STAFF LAPTOPS - FOR EVALUATION PURPOSES (Pricing required to be considered for this category) | | | | | | | | 18.01 Tier 1 Staff Laptop | | 10,000 | Each | | | | | 18.02 Tier 2 Staff Laptop | | 10,000 | Each | | | | | 19 STAFF DESKTOPS - FOR EVALUATION PURPOSES (Pricing required to be considered for this category) | | | | | | | | 19.01 Tier 1 Staff Basic Desktop | | 5,000 | Each | | | | | 19.02 Tier 2 Staff Professional Desktop | | 5,000 | Each | | | | | 20 MONITORS - FOR EVALUATION PURPOSES (Pricing required to be considered for this category) | | | | | | | | 20.01 Display Monitor - Touch | | 5,000 | Each | | | | | 20.02 Display Monitor - Non-Touch | | 5,000 | Each | | | |",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Product categories are explicitly listed in the RFP pricing table on page 35. No specific manufacturer or model is identified.",
+      "status": "supported"
+    },
+    "contact_info": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.98,
+      "notes": "Reviewed the supplied communications provisions, forms, and addenda. Questions must go in writing to the Buyer's Email, but no actual buyer name, email address, or contact phone is provided. Blank vendor fields and system identity numbers are not contact details.",
+      "status": "not_found"
+    },
+    "company_name": {
+      "value": "Dallas ISD",
+      "sources": [
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 19,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-263-9ab05dd9c554",
+          "quote": "| PROPOSAL REQUIREMENT - The following attributes require a response | | | --- | --- | | INTERLOCAL AGREEMENT (\"Rider\") CONSENT FORM Dallas ISD is a member of the Educational Purchasing Cooperative of North Texas (EPCNT). Members of EPCNT add this possible rider to their solicitation documents. If the Vendor chooses \"YES\"; to allow EPCNT members to \"ride\" this Agreement (if any) the following will apply: Governmental entities utilizing Internal Governmental contracts with the Dallas ISD will be eligible, but not obligated, to purchase materials/services under the contract(s) awarded as a result of this solicitation.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "Identifies the procuring organization. Bidder company-name fields in the supplied forms are blank.",
+      "status": "supported"
+    },
+    "Bid Summary": {
+      "value": "Dallas ISD’s RFP JA-207652, “Student and Staff Computing Devices,” seeks student Chromebooks, Windows laptops and tablets, staff laptops and desktops, and touch/non-touch monitors; proposed device specifications must include make and model in the page 36 response-value field. Proposals are due July 9, 2024 at 2:00 PM CST, with electronic or manual submission permitted, although the electronic channel is not identified; fax and email submissions are not accepted. Manual submissions require one original hard copy in a sealed envelope addressed to Dallas ISD Procurement Services, 9400 N Central Expwy, Ste 1510, Attn: Staff Member and BID NUMBER, Dallas, TX 75231. The initial agreement is three years, with two mutually agreed one-year extensions, and deliveries must be scheduled with Dallas ISD ED TECH rather than against a fixed delivery date. A highly encouraged pre-bid meeting is scheduled for June 10, 2024 at 2:00 PM CST via Microsoft Teams. Required proposal documentation includes signed Addenda 1 and 2, pertinent product literature, completed M/WBE forms, three qualifying business references, Form 1295 unless publicly traded, and applicable reseller and EDGAR/FEMA certifications.",
+      "sources": [
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 5,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-18-d51e168180a5",
+          "quote": "ADDENDUM No. 1 RFP JA-207652 Student and Staff Computing Devices The information in this Addendum is hereby incorporated and made part of any contract awarded pursuant to this solicitation. Please sign this addendum and submit along with your copies of the proposal. ALL OTHER PROVISIONS, AND OTHER TERMS AND CONDITIONS REMAIN UNCHANGED. BIDDERS ARE REQUIRED TO ACKNOWLEDGE AND RETURN/SUBMIT A COPY OF THIS ADDENDUM WITH THEIR PROPOSAL. Company Name: Submitter’s Name/Title: Address: City, State and Zip Code: Email Address: Submitter’s Signature: Telephone No. Fax No. 800 # (if available) Date: END OF ADDENDUM",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        },
+        {
+          "document_id": "52da7cb7-6d96-4876-b410-2b9fea27a1be",
+          "file": "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 1,
+          "chunk_id": "52da7cb7-6d96-4876-b410-2b9fea27a1be-v1-0-709c9f8b2a3a",
+          "quote": "2 RFP JA-207652 Student and Staff Computing Devices The Purpose of this Addendum is to extend the due date of this RFP. The new due date for this RFP will be July 9, 2024 at 2:00 PM CST. The information in this Addendum is hereby incorporated and made part of any contract awarded pursuant to this solicitation. Please sign this addendum and submit along with your copies of the proposal. ALL OTHER PROVISIONS AND OTHER TERMS AND CONDITIONS REMAIN UNCHANGED. BIDDERS ARE REQUIRED TO ACKNOWLEDGE AND RETURN/SUBMIT A COPY OF THIS ADDENDUM WITH THEIR PROPOSAL. Company Name: Submitter’s Name/Title: Address: City, State and Zip Code: Email Address: Submitter’s Signature: Telephone No.",
+          "doc_type": "addendum",
+          "addendum_number": 2
+        },
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 4,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-14-17cb34f5e500",
+          "quote": "of the attributes, however, require a response that exceeds the space available in the PDF version of the solicitation. For example, in the SCOPE AND SPECIFICATIONS OF THE PROPOSAL section, attribute 1 asks the vendor to \"provide examples of previously awarded contracts that demonstrate your company's ability,\" attribute 2 asks the vendor to \"describe your company's ability to perform each of the deployment services,\" etc. How should vendors comply with the requirement to use the PDF version of the solicitation and yet respond to such attributes in the very limited space provided under the instruction to \"Provide our answer below\"? Answer: If responding electronically, a pdf version is not r",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 2,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-3-177b7c3161e6",
+          "quote": "to the other party no fewer than ninety (90) days prior to the expiration of the then current term of the Contract. If the District fails to timely exercise any of the options to renew, all remaining options to renew shall expire and terminate 1.3 Requirements LENGTH OF CONTRACT The term of this proposal shall be for a three (3) year agreement with two (2) successive one (1) year extensions based on the long-range needs of the District and mutual consent of both parties not to exceed five (5) years total. SCOPE AND SPECIFICATIONS OF THE PROPOSAL The Dallas Independent School District (Dallas ISD or District) is soliciting offers for the goods and/or services specified in this document.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 2,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-1-47d3f685e33b",
+          "quote": "Buyer ALZATE, JASMINE Email JALZATE@dallasisd.org 1 Header Information 1.1 General Information First Advertisement Date/Issue Date 26-MAY-2024 08:00:00 Second Advertisement Date 02-JUN-2024 08:00:00 Pre-Proposal Meeting 10-JUN-2024 14:00:00 Questions Deadline 11-JUN-2024 16:00:00 Questions Response from the District 13-JUN-2024 18:00:00 Solicitation Due 27-JUN-2024 14:00:00 Anticipated Evaluation & Sel 11-JUL-2024 14:00:00 Anticipated Approval/Award 22-AUG-2024 18:00:00 Pre-Proposal A pre-proposal meeting will be held at 2:00 PM CST via TEAMS video conference on June 10, 2024. Please submit (in writing) any questions regarding this RFP.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 2,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-5-42744cbb013e",
+          "quote": "ADDENDUM No. 1 RFP JA-207652 Student and Staff Computing Devices \n\n12. References are particularly important to our company as well as DISD. Can you please share the timeline DISD purchasing/M/WBE team will be reaching out to our references so we can remind them to be on the lookout during that timeline, reinforcing the urgency to respond to DISD request? Answer: References will be contacted within the week following the solicitation due date. 13. During the desktop setup, is it necessary to secure the desktop under or on a surface? I.e. a lockbox or similar structure on the desks/tables. Answer: No, we are not securing desktops. 14. What are the district's expectations for coverage under th",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        },
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 4,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-15-e924981662a0",
+          "quote": "supporting documentation can be included as part of the submission for those areas that are not sufficient in space. 33. Pricing: Do you require any Imaging on your devices? Every DT, Laptop, and tablet device has an OS installed. What additional software do you require for the software installation requirement? Answer: For Windows devices, autopilot is required. For Chromebooks, enrollment in Google Management is required. 34. Deployment: Does Dallas ISD have a deployment schedule? Number of devices to each address, which devices to each address. How many deployments per week, month and when? Answer: Any awarded vendor will need to coordinate a schedule of deliveries with the Dallas ISD ED ",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 51,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-205-18c172eba6fd",
+          "quote": "with required proof of payments) to its subcontractors with each pay application or as requested by the district. • Acceptable proof of payments includes: (1) Emails from the Subcontractor verifying the payment amount, date paid, school name and/or org #, and project information (2) Partial Lien Releases, (3) Cancelled Checks, or (4) Proof of Electronic Funds Transfer; • All Prime vendors must pay all submitted invoices, including retainage to subcontractors, suppliers, or entities within 10 days of receiving payment from the district; • No Prime vendor shall withhold a non-disputed subcontractor payment; • No Prime vendor may withhold retainage greater than 5% from the subcontractor.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 9,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-24-71428611467d",
+          "quote": "The Offerors shall familiarize themselves with the relevant conditions in the material and labor markets prior to the submission of an offer. By submitting an offer, the Offeror represents that it has familiarized itself with existing and future market conditions and agrees to perform in full accordance with the Offer. The Offeror must comply with any insurance, bid bond, or liability requirements of the District as noted elsewhere in this solicitation document. The Offeror must include pertinent literature/documentation for the proposed products/goods or services.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 3,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-8-cfe3e82a5ee1",
+          "quote": "contracts resulting from this RFP, the District will seek competitive quotes from one or more of the awarded vendors. PROPOSAL SPECIFICATIONS Manufacturer or Authorized Reseller Qualifications For proposing vendors who are resellers, a copy of all factory-authorized repair and maintenance certifications must be submitted with each proposal. Vendors must provide demonstrated competencies and references in delivering the magnitude of devices listed on the price sheet. This supporting documentation may include details of past projects, statements in reference letters, and/or project plans.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 49,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-194-766adbc69898",
+          "quote": "Section 12. | During Bid/Proposal Submission M/WBE Forms. Submit the completed , signed, and dated M/WBE Compliance Guidelines & Forms by the due date. Include all M/WBE supporting documentation including, but not limited to M/WBE Certificates, Affirmative Action, Equal Employment Opportunity or Supplier Diversity Plan, signed, dated and notarized Joint Venture Agreement, signed, dated and notarized Mentor Protégé Agreement and Minutes or Prime-Subcontractor Teaming Agreement. Each proposal is evaluated independently against other proposers. M/WBE Scoring Criteria. The district’s M/WBE Evaluation Scoring Criteria has been established as follows: M/WBE Criteria Maximum Point Allocation A.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 14,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-40-04f5db3cad13",
+          "quote": "(bid) number as the identification number being requested and the contract name as a description of goods or services. Box 6: Please complete and sign, then attach the completed 1295 form with the bid response. Please acknowledge that you have read and understood that the district can not do business with your company without the submittal of this form. If your company is \"Publicly Traded\" you do not need to complete this form. Does the Vendor agree? ----------------------------------------------------------------------------------------------------------------------------------------------- Type ……………………………………………………………………………………………………………………………..",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 12,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-244-1f8ab9ef0b4b",
+          "quote": "| SUBCONTRACTOR INFORMATION | | | --- | --- | | Please indicate three business references that have contracted with your school district/company to provide like products and/or services. Include the school district/company name, address, phone number, contact person, and email address. Preferable references are from the Dallas and Fort Worth school districts that have used your services within the last three years. Additional references may be required. DO NOT INCLUDE DALLAS ISD OR DALLAS ISD EMPLOYEES AS A REFERENCE. Note: Failure to supply complete reference information may be grounds for proposal disqualification.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 32,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-148-088dabb92159",
+          "quote": "documents collectively the \"Agreement\") (3) General requirements outlined within the District's Solicitation document (4) Offeror's response to the solicitation document including services and pricing (5 )Any deviations listed on the District Deviation forms agreed to formally by the District (6) Any notice of award or acceptance by the District by Dallas ISD-issued Purchase Orders, the terms of any applicable Dallas solicitation, (RFP, RFQ, or similar solicitation) executed EDGAR Certifications and/or FEMA Certifications, if applicable (contract documents collectively the \"Agreement\") In the event of a conflict, the contract documents shall control in the order listed in this paragraph.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 48,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-187-1cc9d4360cbd",
+          "quote": "Last update 8.7.2020 Dallas ISD M/WBE Compliance Guidelines and Forms for Goods and Services #3002 Page | 8 Company Name: Bid/RFP No.: Section 11. | Letter of Intent (LOI) [Not required with the initial bid/proposal] To be submitted at the contract negotiation meeting with the district, or as requested by the M/WBE Department. Complete one LOI form for each proposed M/WBE subcontractor. Refer to Section 15 on Page 10 for additional information. Org/School: ________________________________________________________ Prime vendors must submit a Letter of Intent for each M/WBE Subcontractor who will be utilized to supply any services, labor or materials pursuant to the bid/proposal.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 19,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-263-9ab05dd9c554",
+          "quote": "| PROPOSAL REQUIREMENT - The following attributes require a response | | | --- | --- | | INTERLOCAL AGREEMENT (\"Rider\") CONSENT FORM Dallas ISD is a member of the Educational Purchasing Cooperative of North Texas (EPCNT). Members of EPCNT add this possible rider to their solicitation documents. If the Vendor chooses \"YES\"; to allow EPCNT members to \"ride\" this Agreement (if any) the following will apply: Governmental entities utilizing Internal Governmental contracts with the Dallas ISD will be eligible, but not obligated, to purchase materials/services under the contract(s) awarded as a result of this solicitation.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "file": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "page": 35,
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-311-b6108ba3b878",
+          "quote": "| Line | Item, Rev | Target Quantity | Unit | Unit Price | Amount | Bid Minimum Release Amount | | --- | --- | --- | --- | --- | --- | --- | | 15.01 Tier 1 Small Student Chromebook Laptop (Touch) | | 50,000 | Each | | | | | 15.02 Tier 2 Large Student Chromebook Laptop (Non- Touch) | | 50,000 | Each | | | | | 16 STUDENT LAPTOPS - FOR EVALUATION PURPOSES (Pricing required to be considered for this category) | | | | | | | | 16.01 Tier 3 Student Windows Laptop | | 5,000 | Each | | | | | 17 STUDENT TABLETS - FOR EVALUATION PURPOSES (Pricing required to be considered for this category) | | | | | | | | 17.01 Student Tablet | | 50,000 | Each | | | | | 18 STAFF LAPTOPS - FOR EVALUATION PURPOSES (Pricing required to be considered for this category) | | | | | | | | 18.01 Tier 1 Staff Laptop | | 10,000 | Each | | | | | 18.02 Tier 2 Staff Laptop | | 10,000 | Each | | | | | 19 STAFF DESKTOPS - FOR EVALUATION PURPOSES (Pricing required to be considered for this category) | | | | | | | | 19.01 Tier 1 Staff Basic Desktop | | 5,000 | Each | | | | | 19.02 Tier 2 Staff Professional Desktop | | 5,000 | Each | | | | | 20 MONITORS - FOR EVALUATION PURPOSES (Pricing required to be considered for this category) | | | | | | | | 20.01 Display Monitor - Touch | | 5,000 | Each | | | | | 20.02 Display Monitor - Non-Touch | | 5,000 | Each | | | |",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 1,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-4-d36ef21fe2e2",
+          "quote": "ask for Accidental Damage Protection for purchased devices. 10. Reference Page 36: The column says response value here. As pricing is noted above, clearing up that the DISD requirement for “value” DISD would like displayed here, is just the spec’s of the device in question. Answer: Yes, the specs, more specifically the proposed make and model of the device being proposed, should be included in this field. 11. Will DISD consider extending the submission deadline out a few more weeks to allow sufficient time for vendors to complete a compliant response after the addendum(s) has been posted? Answer: Dallas ISD does not anticipate extending the submission deadline.",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        }
+      ],
+      "confidence": 0.98,
+      "notes": "Generated from validated bid fields",
+      "status": "supported"
+    },
+    "Product Specification": {
+      "value": "The page 36 response-value field must include the proposed device specifications, specifically its make and model.",
+      "sources": [
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "page": 1,
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-4-d36ef21fe2e2",
+          "quote": "ask for Accidental Damage Protection for purchased devices. 10. Reference Page 36: The column says response value here. As pricing is noted above, clearing up that the DISD requirement for “value” DISD would like displayed here, is just the spec’s of the device in question. Answer: Yes, the specs, more specifically the proposed make and model of the device being proposed, should be included in this field. 11. Will DISD consider extending the submission deadline out a few more weeks to allow sufficient time for vendors to complete a compliant response after the addendum(s) has been posted? Answer: Dallas ISD does not anticipate extending the submission deadline.",
+          "doc_type": "addendum",
+          "addendum_number": 1
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "The addendum explicitly specifies the required contents of the response-value field; it does not identify an actual make or model to populate in the draft.",
+      "status": "supported"
+    }
+  },
+  "addendum_changes": [
+    {
+      "field": "Installation",
+      "previous_value": "Deployment services include software installation, asset tagging and etching, device deployment and setup, and asset control reporting. All deliveries and deployments must include white-glove services, including asset decaling, asset reporting, etching, and delivery to varied locations.",
+      "revised_value": "All deliveries and deployments must include white-glove services, including asset decaling, asset reporting, and delivery to varied locations. Etching is required only on laptops, not on stand-alone monitors or AIO computers.",
+      "source": {
+        "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+        "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+        "page": 1,
+        "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-1-d700ffa8f8dd",
+        "quote": "of funds are you going to use? Answer: Dallas ISD will primarily be using bond-funded money to purchase devices. 6. Reference Page 3/40: All deliveries and deployments must incorporate white glove services, which include asset decaling, asset reporting, etching, and delivery to varied locations. Does Dallas ISD require a laser etch on the stand-alone monitors or AIO computers? If yes, what is the location and size of the etch? Answer: No, Dallas ISD will only require etching on Laptops. 7. Reference Page 34/40 bullet point 11: Additional Warranty- not included in the initial purchase of a device. Our company can list the cost of several options for each device. However, this box is asking fo",
+        "doc_type": "addendum",
+        "addendum_number": 1
+      },
+      "rationale": "The addendum explicitly limits the otherwise general etching requirement to laptops."
+    },
+    {
+      "field": "Installation",
+      "previous_value": "All deliveries and deployments must include white-glove services, including asset decaling, asset reporting, and delivery to varied locations. Etching is required only on laptops, not on stand-alone monitors or AIO computers.",
+      "revised_value": "Desktop setup does not require securing desktops under or on a surface with a lockbox or similar structure.",
+      "source": {
+        "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+        "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+        "page": 2,
+        "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-5-42744cbb013e",
+        "quote": "ADDENDUM No. 1 RFP JA-207652 Student and Staff Computing Devices \n\n12. References are particularly important to our company as well as DISD. Can you please share the timeline DISD purchasing/M/WBE team will be reaching out to our references so we can remind them to be on the lookout during that timeline, reinforcing the urgency to respond to DISD request? Answer: References will be contacted within the week following the solicitation due date. 13. During the desktop setup, is it necessary to secure the desktop under or on a surface? I.e. a lockbox or similar structure on the desks/tables. Answer: No, we are not securing desktops. 14. What are the district's expectations for coverage under th",
+        "doc_type": "addendum",
+        "addendum_number": 1
+      },
+      "rationale": "The addendum explicitly excludes securing desktops from the setup requirements."
+    },
+    {
+      "field": "Bid Submission Type",
+      "previous_value": "Manual paper submission: one original hard copy in a sealed envelope, sent by mail/FedEx/UPS or similar to Dallas ISD Procurement Services, 9400 N Central Expwy, Ste 1510, Attn: Staff Member and BID NUMBER, Dallas, TX 75231. Fax and email submissions are not accepted.",
+      "revised_value": "Electronic or manual submission is permitted. Electronic responses do not require use of the PDF version of the solicitation; the addendum does not identify the electronic submission channel. Manual responses should have direct edits on the PDF and may include supporting documentation where space is insufficient. For manual submission, provide one original hard copy in a sealed envelope, sent by mail/FedEx/UPS or similar to Dallas ISD Procurement Services, 9400 N Central Expwy, Ste 1510, Attn: Staff Member and BID NUMBER, Dallas, TX 75231. Fax and email submissions are not accepted.",
+      "source": {
+        "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+        "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+        "page": 4,
+        "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-14-17cb34f5e500",
+        "quote": "of the attributes, however, require a response that exceeds the space available in the PDF version of the solicitation. For example, in the SCOPE AND SPECIFICATIONS OF THE PROPOSAL section, attribute 1 asks the vendor to \"provide examples of previously awarded contracts that demonstrate your company's ability,\" attribute 2 asks the vendor to \"describe your company's ability to perform each of the deployment services,\" etc. How should vendors comply with the requirement to use the PDF version of the solicitation and yet respond to such attributes in the very limited space provided under the instruction to \"Provide our answer below\"? Answer: If responding electronically, a pdf version is not r",
+        "doc_type": "addendum",
+        "addendum_number": 1
+      },
+      "rationale": "The addendum expressly distinguishes electronic and manual responses, correcting the draft's manual-only characterization without establishing that email or fax is permitted."
+    },
+    {
+      "field": "Delivery Date",
+      "previous_value": null,
+      "revised_value": "The awarded vendor must coordinate a schedule of deliveries with the Dallas ISD ED TECH department; no fixed delivery date is specified.",
+      "source": {
+        "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+        "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+        "page": 4,
+        "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-15-e924981662a0",
+        "quote": "supporting documentation can be included as part of the submission for those areas that are not sufficient in space. 33. Pricing: Do you require any Imaging on your devices? Every DT, Laptop, and tablet device has an OS installed. What additional software do you require for the software installation requirement? Answer: For Windows devices, autopilot is required. For Chromebooks, enrollment in Google Management is required. 34. Deployment: Does Dallas ISD have a deployment schedule? Number of devices to each address, which devices to each address. How many deployments per week, month and when? Answer: Any awarded vendor will need to coordinate a schedule of deliveries with the Dallas ISD ED ",
+        "doc_type": "addendum",
+        "addendum_number": 1
+      },
+      "rationale": "The addendum explicitly establishes how delivery timing will be determined. The anticipated September quote requests are not treated as a delivery deadline."
+    },
+    {
+      "field": "Product Specification",
+      "previous_value": [
+        "General: Listed specifications are minimum hardware requirements. Devices must meet current industry-standard specifications. Purchases may include bundled accessories such as sleeves, cases, mice, keyboards, and cables. Submissions must include a detailed product-tracking and deployment-services plan, including processes for white-glove services.",
+        "Student Chromebooks: Minimum one-year warranty. Student and staff Windows laptops: Minimum three-year warranty, as clarified by Addendum 1.",
+        "Student Tablet: Enterprise management ready; A13 processor; 10.2-inch Retina display; 8MP wide camera; 2160 × 1620 multi-touch resolution; 802.11AC wireless and Bluetooth 4.2; power supply included; minimum 10-hour battery life; one headphone or other personal audio connection; 64 GB storage; iOS 17; minimum one-year warranty.",
+        "Tier 1 Staff Windows Basic Desktop: Enterprise management ready with Autopilot enrollment; Intel i5, 14th generation or equivalent; minimum 23.8-inch touchscreen display; minimum 16 GB RAM; 802.11AX WiFi-6E and Bluetooth 5.1; minimum three USB 3.0 ports, two USB-C ports, one HDMI port, and one headphone/microphone combo port; 512 GB NVMe SSD; Windows 11 Pro; minimum three-year warranty.",
+        "Tier 2 Staff Professional Desktop: Enterprise management ready; Intel i7, 14th generation or equivalent; minimum 23.8-inch touchscreen display; minimum 32 GB DDR5 RAM; 802.11AX WiFi-6E and Bluetooth 5.1; minimum three USB 3.0 ports, one USB-C port, one HDMI port, and one headphone/microphone combo port; 1 TB NVMe SSD; Windows 11 Pro or Mac OS; 4 GB video card; touchscreen optional; minimum three-year warranty.",
+        "Tier 1 Staff Basic Laptop: Enterprise management ready; Intel i5, 14th generation or equivalent; minimum 13-inch display; integrated 1080p camera; minimum 16 GB DDR5 RAM; 802.11AX WiFi-6E and Bluetooth 5.1; USB Type-C 65 W power supply; minimum 10-hour battery life; minimum one USB 3.0 port, one USB-C port, one HDMI port, and one headphone/microphone combo port; 512 GB NVMe SSD; Windows 11 or Mac OS; minimum three-year warranty.",
+        "Tier 2 Staff Laptop: Enterprise management ready; Intel i7, 14th generation or equivalent; minimum 13-inch display; integrated 1080p camera; minimum 1920 × 1080 resolution; minimum 32 GB DDR5 RAM; 802.11AX WiFi-6E and Bluetooth 5.1; USB-C 65 W power supply; minimum 10-hour battery life; minimum two USB 3.0 ports, one HDMI port, and one headphone/microphone combo port; 1 TB NVMe SSD; Windows 11 or Mac OS; minimum three-year warranty.",
+        "Display Monitor - Touch: Minimum 24-inch display; 1920 × 1080 resolution; USB 3.1 hub; 16:9 aspect ratio; 3000:1 contrast ratio; minimum three-year warranty.",
+        "Display Monitor - Non-Touch: Minimum 24-inch display; 1920 × 1080 resolution; USB 3.1 hub; minimum three-year warranty."
+      ],
+      "revised_value": "Windows devices require Autopilot. Chromebooks require enrollment in Google Management.",
+      "source": {
+        "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+        "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+        "page": 4,
+        "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-15-e924981662a0",
+        "quote": "supporting documentation can be included as part of the submission for those areas that are not sufficient in space. 33. Pricing: Do you require any Imaging on your devices? Every DT, Laptop, and tablet device has an OS installed. What additional software do you require for the software installation requirement? Answer: For Windows devices, autopilot is required. For Chromebooks, enrollment in Google Management is required. 34. Deployment: Does Dallas ISD have a deployment schedule? Number of devices to each address, which devices to each address. How many deployments per week, month and when? Answer: Any awarded vendor will need to coordinate a schedule of deliveries with the Dallas ISD ED ",
+        "doc_type": "addendum",
+        "addendum_number": 1
+      },
+      "rationale": "The addendum explicitly specifies these provisioning requirements for Windows devices and Chromebooks; the draft mentions Autopilot only for one desktop category."
+    },
+    {
+      "field": "Product Specification",
+      "previous_value": "Windows devices require Autopilot. Chromebooks require enrollment in Google Management.",
+      "revised_value": "All warranty options must be official manufacturer warranties.",
+      "source": {
+        "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+        "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+        "page": 3,
+        "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-11-9cd69c99c61e",
+        "quote": "Please submit a minimum price on this line and attach additional pricing if this differs between tiers or devices. 27. In RFP Section 2.1 Line Information (pricing table) #14, would the District consider moving this to a distinct/separate column so you are able to evaluate the discount percentage of list per tier of device? If preferred, can we either attach a table to 2.2.14 Line 14 Discount percentage off catalog/list price or put a discount percentage in the “note to buyer” field. Answer: The pricing table is generated from the electronic system and cannot be manipulated. Line 14 can include the minimum discount percentage offered, and an attachment can be included with your submission to",
+        "doc_type": "addendum",
+        "addendum_number": 1
+      },
+      "rationale": "The addendum expressly confirms an OEM-only requirement not included in the draft's warranty descriptions."
+    },
+    {
+      "field": "Product Specification",
+      "previous_value": "All warranty options must be official manufacturer warranties.",
+      "revised_value": "AIO desktops require a webcam.",
+      "source": {
+        "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+        "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+        "page": 2,
+        "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-8-c66a5029b048",
+        "quote": "the Dallas ISD ED TECH department. 20. On page 12, of the RFP, it asks for references within the Dallas/Ft Worth Area. What proximity/mileage range should be considered? Answer: References do not solely need to come from districts/companies within the Dallas/Fort Worth Area; there is no proximity/mileage that needs to be considered. 21. Are stated quantities one-time buys or spread over the first 3 years of the contract? Answer: The quantities will be spread over life of the contract. 22. Does DISD have a Volume License Agreement with Microsoft? Answer: Yes. 23. Do the AIO Desktops require a webcam? Answer: Yes. 24. In RFP Section 2.1 Line Information (pricing table), will you please clarify",
+        "doc_type": "addendum",
+        "addendum_number": 1
+      },
+      "rationale": "The addendum explicitly adds a webcam requirement for AIO desktops."
+    },
+    {
+      "field": "Product Specification",
+      "previous_value": "AIO desktops require a webcam.",
+      "revised_value": "Laptop battery life will be evaluated using the manufacturer's specifications. Chromebook chargers must meet the minimum 65 W requirement.",
+      "source": {
+        "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+        "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+        "page": 4,
+        "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-16-07ec60e72b11",
+        "quote": "they provide monthly QTY’s per category? Answer: Quantities will fluctuate, a monthly estimate cannot be provided. 36. Laptop Battery Life: How are they measuring battery life? Answer: This will be based on the manufacturer's specifications. 37. Evaluation Units: laptops, tablets, monitors, etc. Are samples needed? If so, when? Answer: Samples will only be required from awarded vendors when ready to purchase large quantities. 38. Laptop Chargers: Why 65w chargers being requested for the Chrome? Answer: This is a minimum requirement for these devices. 39. Terms and Conditions (Legal): Will DISD Negotiate the legal terms and conditions after the award of this bid has been made? Answer: If devi",
+        "doc_type": "addendum",
+        "addendum_number": 1
+      },
+      "rationale": "The addendum explicitly defines the battery-life measurement basis and confirms that the 65 W charger minimum applies to Chromebooks."
+    },
+    {
+      "field": "Product Specification",
+      "previous_value": "Laptop battery life will be evaluated using the manufacturer's specifications. Chromebook chargers must meet the minimum 65 W requirement.",
+      "revised_value": "The page 36 response-value field must include the proposed device specifications, specifically its make and model.",
+      "source": {
+        "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+        "file": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+        "page": 1,
+        "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-4-d36ef21fe2e2",
+        "quote": "ask for Accidental Damage Protection for purchased devices. 10. Reference Page 36: The column says response value here. As pricing is noted above, clearing up that the DISD requirement for “value” DISD would like displayed here, is just the spec’s of the device in question. Answer: Yes, the specs, more specifically the proposed make and model of the device being proposed, should be included in this field. 11. Will DISD consider extending the submission deadline out a few more weeks to allow sufficient time for vendors to complete a compliant response after the addendum(s) has been posted? Answer: Dallas ISD does not anticipate extending the submission deadline.",
+        "doc_type": "addendum",
+        "addendum_number": 1
+      },
+      "rationale": "The addendum explicitly specifies the required contents of the response-value field; it does not identify an actual make or model to populate in the draft."
+    }
+  ],
+  "validation": {
+    "passed": 15,
+    "failed": 0,
+    "not_found": 5,
+    "issues": []
+  },
+  "run_metadata": {
+    "run_id": "a1e509a9-eb66-4be5-a165-819711d57aef",
+    "knowledge_base_id": "rfp-intelligence",
+    "model": "gpt-6.1-sol",
+    "started_at": "2026-10-24T12:23:26.974013+00:00",
+    "completed_at": "2026-10-24T12:25:28.305553+00:00",
+    "token_usage": {
+      "input_tokens": 47289,
+      "output_tokens": 6706,
+      "reasoning_tokens": 696,
+      "total_tokens": 53995,
+      "estimated_cost_usd": 0.0
+    },
+    "latency_ms": {
+      "total_ms": 121342.609
+    }
+  }
+}

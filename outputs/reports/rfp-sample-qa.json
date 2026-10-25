@@ -1,0 +1,329 @@
+{
+  "generated_at": "2026-10-24T06:28:15.399836+00:00",
+  "knowledge_base_id": "rfp-intelligence",
+  "sample_count": 10,
+  "passed": true,
+  "sync_sse_parity_rate": 1.0,
+  "samples": [
+    {
+      "bid_key": "Bid1",
+      "question": "What is the final proposal due date after all addenda?",
+      "answer": "The final proposal due date after the addendum is July 9, 2024, at 2:00 PM CST.",
+      "status": "answered",
+      "route": "SIMPLE_RAG",
+      "citations": [
+        {
+          "document_id": "52da7cb7-6d96-4876-b410-2b9fea27a1be",
+          "document": "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "chunk_id": "52da7cb7-6d96-4876-b410-2b9fea27a1be-v1-0-709c9f8b2a3a",
+          "page": 1,
+          "section": "Page 1",
+          "source_url": "",
+          "quote": "Page 1 | 1 ADDENDUM No. 2 RFP JA-207652 Student and Staff Computing Devices The Purpose of this Addendum is to extend the due date of this RFP. The new due date for this RFP will be July 9, 2024 at 2:00 PM CST. The information in this Addendum is hereby incorporated and made part of any contract awarded pursuant to this solicitation. Please sign this addendum and submit along with your copies of the proposal. ALL OTHER PROVISIONS AND OTHER TERMS AND CONDITIONS REMAIN UNCHANGED."
+        }
+      ],
+      "citation_count": 1,
+      "attempts": 1,
+      "sync_sse_parity": true,
+      "negative_control": false,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "What was the original solicitation due date before Addendum 2?",
+      "answer": "The original solicitation due date was June 27, 2024 at 2:00 PM.",
+      "status": "answered",
+      "route": "SIMPLE_RAG",
+      "citations": [
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "document": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-1-47d3f685e33b",
+          "page": 2,
+          "section": "Page 2",
+          "source_url": "",
+          "quote": "Buyer ALZATE, JASMINE Email JALZATE@dallasisd.org 1 Header Information 1.1 General Information First Advertisement Date/Issue Date 26-MAY-2024 08:00:00 Second Advertisement Date 02-JUN-2024 08:00:00 Pre-Proposal Meeting 10-JUN-2024 14:00:00 Questions Deadline 11-JUN-2024 16:00:00 Questions Response from the District 13-JUN-2024 18:00:00 Solicitation Due 27-JUN-2024 14:00:00 Anticipated Evaluation & Sel 11-JUL-2024 14:00:00 Anticipated Approval/Award 22-AUG-2024 18:00:00 Pre-Proposal A pre-proposal meeting will be held at 2:00 PM CST via TEAMS video conference on June 10, 2024."
+        },
+        {
+          "document_id": "52da7cb7-6d96-4876-b410-2b9fea27a1be",
+          "document": "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "chunk_id": "52da7cb7-6d96-4876-b410-2b9fea27a1be-v1-0-709c9f8b2a3a",
+          "page": 1,
+          "section": "Page 1",
+          "source_url": "",
+          "quote": "Page 1 | 1 ADDENDUM No. 2 RFP JA-207652 Student and Staff Computing Devices The Purpose of this Addendum is to extend the due date of this RFP. The new due date for this RFP will be July 9, 2024 at 2:00 PM CST. The information in this Addendum is hereby incorporated and made part of any contract awarded pursuant to this solicitation. Please sign this addendum and submit along with your copies of the proposal. ALL OTHER PROVISIONS AND OTHER TERMS AND CONDITIONS REMAIN UNCHANGED."
+        }
+      ],
+      "citation_count": 2,
+      "attempts": 1,
+      "sync_sse_parity": true,
+      "negative_control": false,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "When and how is the pre-proposal meeting held?",
+      "answer": "The pre-proposal meeting is scheduled for June 10, 2024, at 2:00 PM CST, and will be held by TEAMS video conference. Potential proposers are encouraged to attend; the notice also provides a meeting link, ID, and passcode.",
+      "status": "answered",
+      "route": "SIMPLE_RAG",
+      "citations": [
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "document": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-1-47d3f685e33b",
+          "page": 2,
+          "section": "Page 2",
+          "source_url": "",
+          "quote": "Buyer ALZATE, JASMINE Email JALZATE@dallasisd.org 1 Header Information 1.1 General Information First Advertisement Date/Issue Date 26-MAY-2024 08:00:00 Second Advertisement Date 02-JUN-2024 08:00:00 Pre-Proposal Meeting 10-JUN-2024 14:00:00 Questions Deadline 11-JUN-2024 16:00:00 Questions Response from the District 13-JUN-2024 18:00:00 Solicitation Due 27-JUN-2024 14:00:00 Anticipated Evaluation & Sel 11-JUL-2024 14:00:00 Anticipated Approval/Award 22-AUG-2024 18:00:00 Pre-Proposal A pre-proposal meeting will be held at 2:00 PM CST via TEAMS video conference on June 10, 2024."
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "document": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-2-f583ca183449",
+          "page": 2,
+          "section": "Page 2",
+          "source_url": "",
+          "quote": "will be considered. It is highly encouraged that all potential proposers participate and attend the preproposal. Join TEAMS Meeting: https://www.microsoft.com/en-us/microsoft-teams/join-a-meeting Meeting ID: 270 031 467 036 Passcode: N9ndKY 1.2 Terms Initial Term: 3 Renewal 1: 1 Renewal 2: 1 Any contract that results from this solicitation and upon Mutual Agreement of the awarded vendor and the District, may be extended not to exceed a total of 5 years(s)."
+        }
+      ],
+      "citation_count": 2,
+      "attempts": 1,
+      "sync_sse_parity": true,
+      "negative_control": false,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "What is the initial contract term and maximum duration with renewals?",
+      "answer": "The initial contract term is three years, with two successive one-year renewals, for a maximum total duration of five years. The extensions require mutual consent. [250389d8-f730-4fe9-9e78-b0227018eced-v1-3-177b7c3161e6]",
+      "status": "answered",
+      "route": "SIMPLE_RAG",
+      "citations": [
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "document": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-3-177b7c3161e6",
+          "page": 2,
+          "section": "Page 2",
+          "source_url": "",
+          "quote": "to the other party no fewer than ninety (90) days prior to the expiration of the then current term of the Contract. If the District fails to timely exercise any of the options to renew, all remaining options to renew shall expire and terminate 1.3 Requirements LENGTH OF CONTRACT The term of this proposal shall be for a three (3) year agreement with two (2) successive one (1) year extensions based on the long-range needs of the District and mutual consent of both parties not to exceed five (5) years total."
+        }
+      ],
+      "citation_count": 1,
+      "attempts": 1,
+      "sync_sse_parity": true,
+      "negative_control": false,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "Which deployment services must vendors be able to perform?",
+      "answer": "Vendors must be able to perform software installation, asset tagging and etching, device deployment and setup, and asset control reporting. Deployments must also include white-glove services: asset decaling, asset reporting, etching, and delivery to varied locations. For software setup, Windows devices require Autopilot and Chromebooks require enrollment in Google Management.",
+      "status": "answered",
+      "route": "SIMPLE_RAG",
+      "citations": [
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "document": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-17-db1b81355872",
+          "page": 7,
+          "section": "Page 7",
+          "source_url": "",
+          "quote": "(i.e., process and procedures guide, schedules of past awards, timelines, etc.) ----------------------------------------------------------------------------------------------------------------------------------------------- Type …………………………………………………………………………………………………………………………….. Provide your answer below 2. Describe your company's ability to perform each of the deployment services described above. These services include (a) software installation, (b) asset tagging and etching, (c) device deployment and setup, and (d) asset control reporting."
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "document": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-9-53d6037494b4",
+          "page": 3,
+          "section": "Page 3",
+          "source_url": "",
+          "quote": "Equipment attachments or parts to be installed must follow the manufacturer's recommendations or standard industry practices. Deployment Services All deliveries and deployments must incorporate white glove services, which include asset decaling, asset reporting, etching, and delivery to varied locations. Warranty and Warranty Repair Work Awarded vendors must be responsible for all materials and accessories used in the equipment, and this responsibility may not be transferred, conveyed, or assigned to any other entity without previous written approval of Dallas ISD."
+        },
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "document": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-15-e924981662a0",
+          "page": 4,
+          "section": "Page 4",
+          "source_url": "",
+          "quote": "33. Pricing: Do you require any Imaging on your devices? Every DT, Laptop, and tablet device has an OS installed. What additional software do you require for the software installation requirement? Answer: For Windows devices, autopilot is required. For Chromebooks, enrollment in Google Management is required. 34. Deployment: Does Dallas ISD have a deployment schedule? Number of devices to each address, which devices to each address. How many deployments per week, month and when? Answer: Any awarded vendor will need to coordinate a schedule of deliveries with the Dallas ISD ED TECH department."
+        }
+      ],
+      "citation_count": 3,
+      "attempts": 1,
+      "sync_sse_parity": true,
+      "negative_control": false,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "Which devices require laser etching according to Addendum 1?",
+      "answer": "Only laptops require laser etching; stand-alone monitors and AIO computers do not.",
+      "status": "answered",
+      "route": "SIMPLE_RAG",
+      "citations": [
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "document": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-1-d700ffa8f8dd",
+          "page": 1,
+          "section": "Page 1",
+          "source_url": "",
+          "quote": "of funds are you going to use? Answer: Dallas ISD will primarily be using bond-funded money to purchase devices. 6. Reference Page 3/40: All deliveries and deployments must incorporate white glove services, which include asset decaling, asset reporting, etching, and delivery to varied locations. Does Dallas ISD require a laser etch on the stand-alone monitors or AIO computers? If yes, what is the location and size of the etch? Answer: No, Dallas ISD will only require etching on Laptops. 7."
+        },
+        {
+          "document_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38",
+          "document": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+          "chunk_id": "59a41b00-2407-44ad-b56e-3c8fd490fb38-v1-5-42744cbb013e",
+          "page": 2,
+          "section": "Page 2",
+          "source_url": "",
+          "quote": "References are particularly important to our company as well as DISD. Answer: References will be contacted within the week following the solicitation due date. 13. During the desktop setup, is it necessary to secure the desktop under or on a surface? I.e. a lockbox or similar structure on the desks/tables. Answer: No, we are not securing desktops. 14. What are the district's expectations for coverage under the warranties listed for each device category? Answer: Dallas ISD will ask all warranties to be made by OEM. 15."
+        }
+      ],
+      "citation_count": 2,
+      "attempts": 1,
+      "sync_sse_parity": true,
+      "negative_control": false,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "How quickly must warranty repairs or replacements be performed?",
+      "answer": "Warranty service, repairs, or replacements are expected to be completed at no cost within five business days after Dallas ISD reports the issue to the vendor. If repairs cannot be completed within that period, the District expects a temporary replacement device.",
+      "status": "answered",
+      "route": "SIMPLE_RAG",
+      "citations": [
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "document": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-228-cefffa3a71be",
+          "page": 4,
+          "section": "Page 4",
+          "source_url": "",
+          "quote": "Warranties shall be equal to or exceed those offered to the general public. Dallas ISD expects that all warranty service and repairs or replacements will be performed by the awarded vendors at no cost within five (5) business days of the District reporting the issue to the vendor. Extension of warranty period and/or other adjustments will be expected when constant maintenance is required, or if replacement parts prove unsound. If the five business (5) day repair period cannot be achieved, the District expects to be provided a temporary replacement device."
+        },
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "document": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-11-6d7670d099c1",
+          "page": 4,
+          "section": "Page 4",
+          "source_url": "",
+          "quote": "and/or parts to service equipment and to ensure repairs are made within the designated five (5) business day period. If the five business (5) day repair period cannot be achieved, the District expects to be provided a temporary replacement device."
+        }
+      ],
+      "citation_count": 2,
+      "attempts": 1,
+      "sync_sse_parity": true,
+      "negative_control": false,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "question": "What proof must an authorized reseller submit with its proposal?",
+      "answer": "An authorized reseller must submit a copy of all factory-authorized repair and maintenance certifications with each proposal. Resellers must also provide demonstrated competencies and references for delivering the quantity of devices listed on the price sheet; supporting documentation may include past-project details, reference letters, and/or project plans.",
+      "status": "answered",
+      "route": "SIMPLE_RAG",
+      "citations": [
+        {
+          "document_id": "250389d8-f730-4fe9-9e78-b0227018eced",
+          "document": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+          "chunk_id": "250389d8-f730-4fe9-9e78-b0227018eced-v1-8-cfe3e82a5ee1",
+          "page": 3,
+          "section": "Page 3",
+          "source_url": "",
+          "quote": "contracts resulting from this RFP, the District will seek competitive quotes from one or more of the awarded vendors. PROPOSAL SPECIFICATIONS Manufacturer or Authorized Reseller Qualifications For proposing vendors who are resellers, a copy of all factory-authorized repair and maintenance certifications must be submitted with each proposal. Vendors must provide demonstrated competencies and references in delivering the magnitude of devices listed on the price sheet. This supporting documentation may include details of past projects, statements in reference letters, and/or project plans."
+        }
+      ],
+      "citation_count": 1,
+      "attempts": 1,
+      "sync_sse_parity": true,
+      "negative_control": false,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "question": "What is the closing date and time for the Dell laptop bid?",
+      "answer": "The Dell laptop bid closes on June 10, 2024, at 2:00 PM EDT.",
+      "status": "answered",
+      "route": "SIMPLE_RAG",
+      "citations": [
+        {
+          "document_id": "3eec317e-5f38-4554-b79a-66e0c18a6ba8",
+          "document": "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+          "chunk_id": "3eec317e-5f38-4554-b79a-66e0c18a6ba8-v1-0-6c8c993e39b9",
+          "page": null,
+          "section": "BPM044557 - Dell Laptops w/Extended Warranty",
+          "source_url": "",
+          "quote": "BPM044557 - Dell Laptops w/Extended Warranty Are you sure you want to delete this note? Notice Categories Addendums Documents Basic Information 00004079359 State of Maryland Treasurer's Office RFP - Request for Proposal (Informal) BPM044557 Dell Laptops w/Extended Warranty SCRIBE Details Anne Arundel County Not Stated No Dates 05/28/2024 11:47 AM EDT 06/10/2024 02:00 PM EDT Contact Information Tamaira Hawkins 410-260-7533 Thawkins@treasurer.state.md.us"
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "document": "PORFP_-_Dell_Laptop_Final.pdf",
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-7-66a30112a440",
+          "page": 3,
+          "section": "Page 3",
+          "source_url": "",
+          "quote": "21401 Section 4 – Scope of Work FA II - Printers and Associated Peripherals (Provide product specifications below. If some or all specifications are unknown, Master Contractors may propose products based on a detailed description in the Business Need / Required Functionality field*) *Business Need / Required Functionality Office is in need of a refresh of laptops and must acquire enough laptops to accommodate MD529 employees who have been included in our staff as of June 1, 2023. Product Name Product Description Model # Qty Due Date mm/dd/yyyy 1."
+        }
+      ],
+      "citation_count": 2,
+      "attempts": 1,
+      "sync_sse_parity": true,
+      "negative_control": false,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "question": "How must responses to the Dell laptop PORFP be submitted?",
+      "answer": "Submit the response through the State’s eMaryland Marketplace Advantage (eMMA) e-Procurement system. You must be registered and logged in to submit; responses by email, fax, U.S. Mail, or hand delivery will not be accepted. See the linked Vendor QRG 4 for electronic submission instructions. [The PORFP lists the proposal due date as 06/10/2024.]",
+      "status": "answered",
+      "route": "SIMPLE_RAG",
+      "citations": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "document": "PORFP_-_Dell_Laptop_Final.pdf",
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-11-7856db4e7884",
+          "page": 1,
+          "section": "Page 1",
+          "source_url": "",
+          "quote": "Only businesses that meet the statutory requirements set forth in State Finance and Procurement Article, §§14-501—14-505, Annotated Code of Maryland, and that are certified by GOSBA Small Business Reserve Program are eligible for award of a contract. BID SUBMISSION INSTRUCTIONS Purchase Order Request for Proposal (PORFP) responses will only be accepted through the State's eMaryland Marketplace Advantage (eMMA) e-Procurement system. Bids will not be accepted by email, fax, U.S."
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "document": "PORFP_-_Dell_Laptop_Final.pdf",
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-16-002fd4341456",
+          "page": 2,
+          "section": "Page 2",
+          "source_url": "",
+          "quote": "| | | Questions Due (Closing) Date and Time: 06/01/2024 at 2:00 PM EDT Questions must be submitted in writing to thawkins@treasurer.state.md.us with the subject line, “QUESTION for Dell Laptop #E20P4600040”, and be submitted in writing via e-mail to the Procurement Officer no later than the date and time specified. | | | --- | --- | --- | --- | | Security Requirements (if applicable): | | 1. The Department reserves the right to purchase more or less than the specified quantity to the extent limited by funding."
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "document": "PORFP_-_Dell_Laptop_Final.pdf",
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-17-4f7266abfb45",
+          "page": 2,
+          "section": "Page 2",
+          "source_url": "",
+          "quote": "| | | Questions Due (Closing) Date and Time: 06/01/2024 at 2:00 PM EDT Questions must be submitted in writing to thawkins@treasurer.state.md.us with the subject line, “QUESTION for Dell Laptop #E20P4600040”, and be submitted in writing via e-mail to the Procurement Officer no later than the date and time specified. | | | --- | --- | --- | --- | | Invoicing Instructions: | | 1. Email invoices to: STOaccountspayable@treasurer.state.md.us 2. • Reference the States assigned PORFP number."
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "document": "PORFP_-_Dell_Laptop_Final.pdf",
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-10-67f44b575625",
+          "page": 1,
+          "section": "Page 1",
+          "source_url": "",
+          "quote": "| | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | | | Section 1 –General Information | | | | | | | | | | | | | | | | | | | | PORFP Number: | | #E20P4600040 eMMA Project Number: BPM044557 | | | | | | | | | | | | | | | | | | PORFP Type: | | Fixed Price | | | | | | | | | | | | | | | | | Functional Area/s (FA) for this PORFP: | Functional Area/s (FA) | | FA I (Printers and Associated Peripherals) FA V (Manufacturer’s Extended Warranty) | | | | | | | | for this PORFP: | | | | | | | | | | | | | | | | | | | | Manufacturer Name | | Dell | | | | | | | | | | | | | | | | | | Designated Small | | Yes | | | | | | | | Business Reserve?(SBR): | | | | | | | | | | | | | | | | | | | | Minority Business Enterprise (MBE) Goal for FA IV Below | | | | | | 0 % | | | | (See “Hardware Master Contract MBE Participation Worksheet”): | | | | | | | | | | PORFP Issue Date: | | 05/24/2024 | | PROPOSAL DUE | | 06/10/2024 | | | | mm/dd/yyyy | | | | DATE and TIME: | | | | | Place of Performance: | Place of Performance: | | MD State Treasurer's Office 80 Clavert Street Annapolis MD 21401 | | | | | |"
+        }
+      ],
+      "citation_count": 4,
+      "attempts": 1,
+      "sync_sse_parity": true,
+      "negative_control": false,
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "question": "What is the refund period in the example policy?",
+    "expected_answer": "Customers may request a refund within 30 calendar days of purchase.",
+    "expected_sources": ["refund_policy.txt"]
+  },
+  {
+    "question": "How must a customer initiate a refund?",
+    "expected_answer": "The customer must submit the request through the support portal with the order number.",
+    "expected_sources": ["refund_policy.txt"]
+  }
+]
+

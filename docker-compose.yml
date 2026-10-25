@@ -1,0 +1,87 @@
+name: advance-rag
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: advance_rag
+      POSTGRES_USER: advance_rag
+      POSTGRES_PASSWORD: advance_rag
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U advance_rag -d advance_rag"]
+      interval: 5s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+
+  redis:
+    image: redis/redis-stack-server:7.4.0-v8
+    environment:
+      REDIS_ARGS: "--appendonly yes --appendfsync everysec"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+    restart: unless-stopped
+
+  migrate:
+    build: .
+    env_file: .env
+    command: ["alembic", "upgrade", "head"]
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: "no"
+
+  api:
+    build: .
+    env_file: .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - document_data:/data/documents
+      - report_data:/app/reports
+      - model_cache:/home/rag/.cache
+      - ./outputs:/app/outputs
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+
+  worker:
+    build: .
+    env_file: .env
+    command: ["celery", "-A", "app.worker.celery_app", "worker", "--loglevel=INFO", "--pool=solo", "--concurrency=1"]
+    volumes:
+      - document_data:/data/documents
+      - report_data:/app/reports
+      - model_cache:/home/rag/.cache
+      - ./outputs:/app/outputs
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      migrate:
+        condition: service_completed_successfully
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
+  document_data:
+  report_data:
+  model_cache:

@@ -1,0 +1,537 @@
+{
+  "bid_id": "Bid2",
+  "fields": {
+    "Bid Number": {
+      "value": "E20P4600040 (PORFP); BPM044557 (eMMA project)",
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-0-cbc47bead5df",
+          "quote": "Hardware Master Contract 1 Section 1 –General Information PORFP Number: #E20P4600040 eMMA Project Number: BPM044557 PORFP Type: Fixed Price Functional Area/s (FA) for this PORFP: FA I (Printers and Associated Peripherals) FA V (Manufacturer’s Extended Warranty) Manufacturer Name Dell Designated Small Business Reserve?(SBR): Yes Minority Business Enterprise (MBE) Goal for FA IV Below (See “Hardware Master Contract MBE Participation Worksheet”): 0 % PORFP Issue Date: mm/dd/yyyy 05/24/2024 PROPOSAL DUE DATE and TIME: 06/10/2024 Place of Performance: MD State Treasurer's Office 80 Clavert Street Annapolis MD 21401 Special Instructions:",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "The RFP explicitly identifies both numbers; they are different identifiers for the same procurement.",
+      "status": "supported"
+    },
+    "Title": {
+      "value": "Dell Laptops w/Extended Warranty",
+      "sources": [
+        {
+          "document_id": "3eec317e-5f38-4554-b79a-66e0c18a6ba8",
+          "file": "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+          "page": null,
+          "chunk_id": "3eec317e-5f38-4554-b79a-66e0c18a6ba8-v1-0-6c8c993e39b9",
+          "quote": "BPM044557 - Dell Laptops w/Extended Warranty Are you sure you want to delete this note? Notice Categories Addendums Documents Basic Information 00004079359 State of Maryland Treasurer's Office RFP - Request for Proposal (Informal) BPM044557 Dell Laptops w/Extended Warranty SCRIBE Details Anne Arundel County Not Stated No Dates 05/28/2024 11:47 AM EDT 06/10/2024 02:00 PM EDT Contact Information Tamaira Hawkins 410-260-7533 Thawkins@treasurer.state.md.us",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Title stated on the bid page.",
+      "status": "supported"
+    },
+    "Due Date": {
+      "value": "06/10/2024 at 02:00 PM EDT",
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-10-67f44b575625",
+          "quote": "| | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | | | Section 1 –General Information | | | | | | | | | | | | | | | | | | | | PORFP Number: | | #E20P4600040 eMMA Project Number: BPM044557 | | | | | | | | | | | | | | | | | | PORFP Type: | | Fixed Price | | | | | | | | | | | | | | | | | Functional Area/s (FA) for this PORFP: | Functional Area/s (FA) | | FA I (Printers and Associated Peripherals) FA V (Manufacturer’s Extended Warranty) | | | | | | | | for this PORFP: | | | | | | | | | | | | | | | | | | | | Manufacturer Name | | Dell | | | | | | | | | | | | | | | | | | Designated Small | | Yes | | | | | | | | Business Reserve?(SBR): | | | | | | | | | | | | | | | | | | | | Minority Business Enterprise (MBE) Goal for FA IV Below | | | | | | 0 % | | | | (See “Hardware Master Contract MBE Participation Worksheet”): | | | | | | | | | | PORFP Issue Date: | | 05/24/2024 | | PROPOSAL DUE | | 06/10/2024 | | | | mm/dd/yyyy | | | | DATE and TIME: | | | | | Place of Performance: | Place of Performance: | | MD State Treasurer's Office 80 Clavert Street Annapolis MD 21401 | | | | | |",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "3eec317e-5f38-4554-b79a-66e0c18a6ba8",
+          "file": "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+          "page": null,
+          "chunk_id": "3eec317e-5f38-4554-b79a-66e0c18a6ba8-v1-0-6c8c993e39b9",
+          "quote": "BPM044557 - Dell Laptops w/Extended Warranty Are you sure you want to delete this note? Notice Categories Addendums Documents Basic Information 00004079359 State of Maryland Treasurer's Office RFP - Request for Proposal (Informal) BPM044557 Dell Laptops w/Extended Warranty SCRIBE Details Anne Arundel County Not Stated No Dates 05/28/2024 11:47 AM EDT 06/10/2024 02:00 PM EDT Contact Information Tamaira Hawkins 410-260-7533 Thawkins@treasurer.state.md.us",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "The RFP supplies the proposal due date; the bid page supplies the time and time zone. The June 1 deadline is for questions, not proposals.",
+      "status": "supported"
+    },
+    "Bid Submission Type": {
+      "value": "Electronic submission only through eMaryland Marketplace Advantage (eMMA)",
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-2-39105d488495",
+          "quote": "of Maryland, and that are certified by GOSBA Small Business Reserve Progra m are eligible for award of a contract. BID SUBMISSION INSTRUCTIONS Purchase Order Request for Proposal (PORFP) responses will only be accepted through the State's eMaryland Marketplace Advantage (eMMA) e-Procurement system. Bids will not be accepted by email, fax, U.S. Mail, or hand delivery. You must be registered and Logged in to submit a bid on eMMA. Instructions on how to submit proposals electronically can be found at: https://procurement.maryland.gov/emma-qrgs/ Refer to Vendor QRG 4 – eMMA QRG Responding to Solicitations (IFB)",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Registration and login are required. Email, fax, U.S. Mail, and hand delivery are expressly prohibited.",
+      "status": "supported"
+    },
+    "Term of Bid": {
+      "value": "Proposals/quotes must remain valid for at least 90 days after the stated due date.",
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-16-002fd4341456",
+          "quote": "| | | --- | --- | --- | --- | | Security Requirements (if applicable): | | 1. The Department reserves the right to purchase more or less than the specified quantity to the extent limited by funding. 2. The Master Contractor must provide the estimated ship date/lead time for each item listed in the PORFP FA I 3. Please allow proposals/quotes provided in response to this PORFP to be valid for at least 90 days after the set due date above. 4. The Master Contractor must be an authorized reseller for Dell. The state reserves the right to request a Letter of Authorization (LOA) from the Manufacturer or Distributor. 5.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "This is the proposal validity period, not a separately stated contract duration.",
+      "status": "supported"
+    },
+    "Pre Bid Meeting": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.95,
+      "notes": "Reviewed the supplied RFP instructions, question deadline, and bid-page evidence. No pre-bid meeting date, location, or attendance requirement was found.",
+      "status": "not_found"
+    },
+    "Installation": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.95,
+      "notes": "Reviewed the supplied scope, product specifications, warranty requirements, and instructions. No installation requirement or installation schedule was found.",
+      "status": "not_found"
+    },
+    "Bid Bond Requirement": {
+      "value": null,
+      "sources": [],
+      "confidence": 0.95,
+      "notes": "Reviewed the supplied submission instructions, security requirements, evaluation provisions, and affidavit excerpts. No bid bond requirement or express waiver was found.",
+      "status": "not_found"
+    },
+    "Delivery Date": {
+      "value": "Within 45 days of award",
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-4-3558cdbd0e51",
+          "quote": "for at least 9 0 days after the set due date above. 4. The Master Contractor must be an authorized reseller for Dell. The state reserves the right to request a Letter of Authorization (LOA) from the Manufacturer or Distributor. 5. Purchase new and unused equipment. 6. The Master Contractor shall not impose a restocking fee if an item is returned due to damage or incorrect product shipped. 7. ENERGY STAR certified product 8. The Master Contractor must provide a Mercury Affidavit: https://doit.maryland.gov/contracts/Documents/hardware_co ntract/hwmercury_affidavit.pdf 9. Delivery within 45 days of Award. Invoicing Instructions: 1. Email invoices to: STOaccountspayable@treasurer.state.md.us 2.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.88,
+      "notes": "Used the explicit delivery-after-award requirement. A generic product-table due-date column is not treated as a delivery deadline.",
+      "status": "supported"
+    },
+    "Payment Terms": {
+      "value": "Email invoices to STOaccountspayable@treasurer.state.md.us within 10 days of equipment delivery. Include contractor name, mailing address, SSN or Federal Tax ID, phone number, State-assigned PORFP number, invoice date and number, amount due, proof of delivery, and equipment serial numbers.",
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-5-4c7447312cee",
+          "quote": "within 45 days of Award. Invoicing Instructions: 1. Email invoices to: STOaccountspayable@treasurer.state.md.us 2. Invoice(s) shall be submitted within 10 days of delivering the equipment and shall include at a minimum the following: • Contractor name, mailing address, social security number or Federal Tax ID number, and phone number. • Reference the States assigned PORFP number. • Date, invoice number and amount due. 3. Proof of delivery including packing slip or delivery confirmation, and equipment serial numbers. Section 2 – Agency Point of Contact (POC) Information Agency / Division Name: State Treasurer's Office/ Information Technology",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "These are invoicing requirements; no payment due date or net-payment period is specified in the supplied evidence. Supplier credit-program language does not establish the agency's payment terms.",
+      "status": "supported"
+    },
+    "Any Additional Documentation Required": {
+      "value": [
+        "Mercury Affidavit.",
+        "Manufacturer or distributor Letter of Authorization (LOA), if requested by the State, confirming Dell reseller authorization.",
+        "Estimated ship date/lead time for each item listed in PORFP FA I.",
+        "With invoicing: proof of delivery, including packing slip or delivery confirmation, and equipment serial numbers."
+      ],
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-4-3558cdbd0e51",
+          "quote": "for at least 9 0 days after the set due date above. 4. The Master Contractor must be an authorized reseller for Dell. The state reserves the right to request a Letter of Authorization (LOA) from the Manufacturer or Distributor. 5. Purchase new and unused equipment. 6. The Master Contractor shall not impose a restocking fee if an item is returned due to damage or incorrect product shipped. 7. ENERGY STAR certified product 8. The Master Contractor must provide a Mercury Affidavit: https://doit.maryland.gov/contracts/Documents/hardware_co ntract/hwmercury_affidavit.pdf 9. Delivery within 45 days of Award. Invoicing Instructions: 1. Email invoices to: STOaccountspayable@treasurer.state.md.us 2.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-16-002fd4341456",
+          "quote": "| | | --- | --- | --- | --- | | Security Requirements (if applicable): | | 1. The Department reserves the right to purchase more or less than the specified quantity to the extent limited by funding. 2. The Master Contractor must provide the estimated ship date/lead time for each item listed in the PORFP FA I 3. Please allow proposals/quotes provided in response to this PORFP to be valid for at least 90 days after the set due date above. 4. The Master Contractor must be an authorized reseller for Dell. The state reserves the right to request a Letter of Authorization (LOA) from the Manufacturer or Distributor.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-5-4c7447312cee",
+          "quote": "within 45 days of Award. Invoicing Instructions: 1. Email invoices to: STOaccountspayable@treasurer.state.md.us 2. Invoice(s) shall be submitted within 10 days of delivering the equipment and shall include at a minimum the following: • Contractor name, mailing address, social security number or Federal Tax ID number, and phone number. • Reference the States assigned PORFP number. • Date, invoice number and amount due. 3. Proof of delivery including packing slip or delivery confirmation, and equipment serial numbers. Section 2 – Agency Point of Contact (POC) Information Agency / Division Name: State Treasurer's Office/ Information Technology",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.98,
+      "notes": "The LOA is conditional upon State request. Delivery documentation is required with invoicing, not expressly with the bid. Contract Affidavit excerpts are supplied, but do not expressly establish its submission timing or requirement.",
+      "status": "supported"
+    },
+    "MFG for Registration": {
+      "value": "Dell",
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-0-cbc47bead5df",
+          "quote": "Hardware Master Contract 1 Section 1 –General Information PORFP Number: #E20P4600040 eMMA Project Number: BPM044557 PORFP Type: Fixed Price Functional Area/s (FA) for this PORFP: FA I (Printers and Associated Peripherals) FA V (Manufacturer’s Extended Warranty) Manufacturer Name Dell Designated Small Business Reserve?(SBR): Yes Minority Business Enterprise (MBE) Goal for FA IV Below (See “Hardware Master Contract MBE Participation Worksheet”): 0 % PORFP Issue Date: mm/dd/yyyy 05/24/2024 PROPOSAL DUE DATE and TIME: 06/10/2024 Place of Performance: MD State Treasurer's Office 80 Clavert Street Annapolis MD 21401 Special Instructions:",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-4-3558cdbd0e51",
+          "quote": "for at least 9 0 days after the set due date above. 4. The Master Contractor must be an authorized reseller for Dell. The state reserves the right to request a Letter of Authorization (LOA) from the Manufacturer or Distributor. 5. Purchase new and unused equipment. 6. The Master Contractor shall not impose a restocking fee if an item is returned due to damage or incorrect product shipped. 7. ENERGY STAR certified product 8. The Master Contractor must provide a Mercury Affidavit: https://doit.maryland.gov/contracts/Documents/hardware_co ntract/hwmercury_affidavit.pdf 9. Delivery within 45 days of Award. Invoicing Instructions: 1. Email invoices to: STOaccountspayable@treasurer.state.md.us 2.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "Dell is the named manufacturer, and the Master Contractor must be an authorized Dell reseller. No separate manufacturer deal-registration procedure is stated.",
+      "status": "supported"
+    },
+    "Contract or Cooperative to use": {
+      "value": "Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007",
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-11-7856db4e7884",
+          "quote": "| | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | | Special Instructions: | | | LIMITED TO MASTER CONTRACTORS Only Master Contractors that are awarded a contract under the Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007, are eligible to submit a bid in response to this secondary competition Purchase Order Request for Proposal (PORFP). SMALL BUSINESS RESERVE (SBR) PROCUREMENT This is a Small Business Reserve Procurement for which award will be limited to certified small business vendors. Bids will not be accepted by email, fax, U.S.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "This secondary competition is limited to Master Contractors awarded a contract under the identified Master Contract.",
+      "status": "supported"
+    },
+    "Model_no": {
+      "value": [
+        "SI# CC7802",
+        "WD22TB4"
+      ],
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-22-c4a9849198e4",
+          "quote": "| | | | | | | | | | | | | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | 1. SI# CC7802 Dell Latitude 5550 | | SI# CC7802 Dell Latitude 5550 *Laptops must be Microsoft Copilot ready* | | | | | SI# CC7802 | | | | | 30 | | | | | 06/10/2024 | | | | 2.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "The Model # column lists SI# CC7802 for the Dell Latitude 5550 and WD22TB4 for the Dell Thunderbolt 4 Dock.",
+      "status": "supported"
+    },
+    "Part_no": {
+      "value": [
+        "364-1846",
+        "364-4107",
+        "375-3088",
+        "383-0464"
+      ],
+      "sources": [
+        {
+          "document_id": "467aafa5-9fb4-4cb3-87f5-fa28b857f4c4",
+          "file": "Dell_Laptop_Specs.pdf",
+          "page": 2,
+          "chunk_id": "467aafa5-9fb4-4cb3-87f5-fa28b857f4c4-v1-2-5ab3850e5c1f",
+          "quote": "3 62-7806 364-1846 364-4107 3 65-0257 3 66-0135 3 66-0141 3 71-0941 375-3088 CFI,Information,MIAS, Post Bur n,Factory Install CFI Titan Code for CFI FIDA or Bypass SI CFI,Information, Validation,Se lect Any Microsoft OS CFI Routing SKU Custom Asset Report Consigned Asset Tag CFI,Information Client,Only CFI,Information,CSRouting,Elig ible,Factory Install CFI,LBL,POLY,SML,CC7801,FACTOR Y INSTALL 383-0464 Page 4 Dell Marketing LP. U.S. only. Dell Marketing LP. is located at One Dell Way, Mail Stop 8129, Round Rock, TX 78682",
+          "doc_type": "specs",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.85,
+      "notes": "These are clearly readable configuration/component codes in the supplied specifications excerpt, not confirmed whole-laptop or dock part numbers. Other codes are fragmented by extraction and are omitted rather than reconstructed.",
+      "status": "supported"
+    },
+    "Product": {
+      "value": [
+        "Dell Latitude 5550",
+        "Dell Thunderbolt 4 Dock – WD22TB4",
+        "Dell Limited Hardware Warranty Extended – 3 Years"
+      ],
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-22-c4a9849198e4",
+          "quote": "Dell Thunderbolt 4 Dock – WD22TB4 | | Dell Thunderbolt 4 Dock – WD22TB4 | | | | | WD22TB4 | | | | | 30 | | | | | 06/10/2024 | | | | | | | | | | | | | | | | | | | | | | | | | | FA V - Manufacturer’s Extended Warranty | | | | | | | | | | | | | | | | | | | | | (Provide a detailed description of warranty requirements and deliverables) | | | | | | | | | | | | | | | | | | | | | | | | | | Deliverables | | | | | | | | | | | | | | | | Warranty Requirements | | | | | | | | | | Start Date | | | | | End Date | | | | | | | | | | | | | | | | mm/dd/yyyy | | | | | mm/dd/yyyy | | | | | 1.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "The scope identifies laptops, docks, and a three-year manufacturer’s extended hardware warranty.",
+      "status": "supported"
+    },
+    "contact_info": {
+      "value": {
+        "name": "Tamaira Hawkins",
+        "email": "thawkins@treasurer.state.md.us",
+        "phone": "410-260-7533"
+      },
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-6-d31cc359a58a",
+          "quote": "Hardware Master Contract 3 Agency POC Name: Tamaira Hawkins Agency POC Phone Number: 410-260-7533 Agency POC Email Address: thawkins@treasurer.state.md .us Agency POC Fax: N/A Agency POC Mailing Address: MD State Treasurer’s Office 80 Calvert Street, Room 109 Annapolis, MD 21401 Section 3 – Delivery Address / Work Site POC Information (if different from above) Agency On-site Contact Name: James Simpson Agency On-site Phone Number: 410-260-6063 Agency On-site Email Address: jsimpson@treasurer.state.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-3-17f5c8844def",
+          "quote": "Hardware Master Contract 2 Questions Due (Closing) Date and Time: 06/01/2024 at 2:00 PM EDT Questions must be submitted in writing to thawkins@treasurer.state.md.us with the subject line, “QUESTION for Dell Laptop #E20P4600040”, and be submitted in writing via e-mail to the Procurement Officer no later than the date and time specified. Security Requirements (if applicable): 1. The Department reserves the right to purchase more or less than the specified quantity to the extent limited by funding. 2. The Master Contractor must provide the estimated ship date/lead time for each item listed in the PORFP FA I 3.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 1.0,
+      "notes": "Listed as the agency POC; the questions instructions independently confirm the email address.",
+      "status": "supported"
+    },
+    "company_name": {
+      "value": "Maryland State Treasurer's Office",
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-20-c98ce3a395a7",
+          "quote": "| | | | | | | | | | | | | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | Agency POC Name: | | | | Tamaira Hawkins | | | | | Agency POC | | | | | | 410-260-7533 | | | | | | | | | | | | | | | Phone Number: | | | | | | | | | | | | Agency POC Email Address: | | | | thawkins@treasurer.state.md .us | | | | Agency POC Fax: | Agency POC | | | | | | N/A | | | | | | | | | | | | | | | Fax: | | | | | | | | | | | | Agency POC Mailing Address: | | | | MD State Treasurer’s Office 80 Calvert Street, Room 109 Annapolis, MD 21401 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | Section 3 – Delivery Address / Work Site POC Information (if different from above) | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | Agency On-site Contact | | | James Simpson | | | | | Agency On-site | | | | | | 410-260-6063 | | | | | | | Name: | | | | | | | | Phone Number: | | | | | | | | | | | | | Agency On-site Email | | | jsimpson@treasurer.state.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-5-4c7447312cee",
+          "quote": "within 45 days of Award. Invoicing Instructions: 1. Email invoices to: STOaccountspayable@treasurer.state.md.us 2. Invoice(s) shall be submitted within 10 days of delivering the equipment and shall include at a minimum the following: • Contractor name, mailing address, social security number or Federal Tax ID number, and phone number. • Reference the States assigned PORFP number. • Date, invoice number and amount due. 3. Proof of delivery including packing slip or delivery confirmation, and equipment serial numbers. Section 2 – Agency Point of Contact (POC) Information Agency / Division Name: State Treasurer's Office/ Information Technology",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "Interpreted as the issuing organization. The agency/division is identified as State Treasurer's Office / Information Technology.",
+      "status": "supported"
+    },
+    "Bid Summary": {
+      "value": "The Maryland State Treasurer's Office seeks 30 Microsoft Copilot-ready Dell Latitude 5550 laptops (SI# CC7802), 30 Dell Thunderbolt 4 Docks (WD22TB4), and three-year extended hardware warranties under PORFP E20P4600040 / eMMA project BPM044557, using Desktop, Laptop and Tablet 2015 Master Contract 060B5400007. Proposals are due June 10, 2024, at 2:00 PM EDT, must be submitted electronically through eMaryland Marketplace Advantage (eMMA), and must remain valid for at least 90 days after the deadline. Delivery is required within 45 days of award; equipment must be new, unused, and ENERGY STAR certified, with warranty coverage lasting three years from delivery. Required documentation includes a Mercury Affidavit, estimated ship dates or lead times for each item, a warranty certificate or affidavit upon award, and a Dell reseller authorization letter if requested by the State. Invoices must be emailed to STOaccountspayable@treasurer.state.md.us within 10 days of equipment delivery and include the specified contractor and invoice details, State-assigned PORFP number, proof of delivery, and equipment serial numbers.",
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-0-cbc47bead5df",
+          "quote": "Hardware Master Contract 1 Section 1 –General Information PORFP Number: #E20P4600040 eMMA Project Number: BPM044557 PORFP Type: Fixed Price Functional Area/s (FA) for this PORFP: FA I (Printers and Associated Peripherals) FA V (Manufacturer’s Extended Warranty) Manufacturer Name Dell Designated Small Business Reserve?(SBR): Yes Minority Business Enterprise (MBE) Goal for FA IV Below (See “Hardware Master Contract MBE Participation Worksheet”): 0 % PORFP Issue Date: mm/dd/yyyy 05/24/2024 PROPOSAL DUE DATE and TIME: 06/10/2024 Place of Performance: MD State Treasurer's Office 80 Clavert Street Annapolis MD 21401 Special Instructions:",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "3eec317e-5f38-4554-b79a-66e0c18a6ba8",
+          "file": "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+          "page": null,
+          "chunk_id": "3eec317e-5f38-4554-b79a-66e0c18a6ba8-v1-0-6c8c993e39b9",
+          "quote": "BPM044557 - Dell Laptops w/Extended Warranty Are you sure you want to delete this note? Notice Categories Addendums Documents Basic Information 00004079359 State of Maryland Treasurer's Office RFP - Request for Proposal (Informal) BPM044557 Dell Laptops w/Extended Warranty SCRIBE Details Anne Arundel County Not Stated No Dates 05/28/2024 11:47 AM EDT 06/10/2024 02:00 PM EDT Contact Information Tamaira Hawkins 410-260-7533 Thawkins@treasurer.state.md.us",
+          "doc_type": "bid_page",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-10-67f44b575625",
+          "quote": "| | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | | | Section 1 –General Information | | | | | | | | | | | | | | | | | | | | PORFP Number: | | #E20P4600040 eMMA Project Number: BPM044557 | | | | | | | | | | | | | | | | | | PORFP Type: | | Fixed Price | | | | | | | | | | | | | | | | | Functional Area/s (FA) for this PORFP: | Functional Area/s (FA) | | FA I (Printers and Associated Peripherals) FA V (Manufacturer’s Extended Warranty) | | | | | | | | for this PORFP: | | | | | | | | | | | | | | | | | | | | Manufacturer Name | | Dell | | | | | | | | | | | | | | | | | | Designated Small | | Yes | | | | | | | | Business Reserve?(SBR): | | | | | | | | | | | | | | | | | | | | Minority Business Enterprise (MBE) Goal for FA IV Below | | | | | | 0 % | | | | (See “Hardware Master Contract MBE Participation Worksheet”): | | | | | | | | | | PORFP Issue Date: | | 05/24/2024 | | PROPOSAL DUE | | 06/10/2024 | | | | mm/dd/yyyy | | | | DATE and TIME: | | | | | Place of Performance: | Place of Performance: | | MD State Treasurer's Office 80 Clavert Street Annapolis MD 21401 | | | | | |",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-2-39105d488495",
+          "quote": "of Maryland, and that are certified by GOSBA Small Business Reserve Progra m are eligible for award of a contract. BID SUBMISSION INSTRUCTIONS Purchase Order Request for Proposal (PORFP) responses will only be accepted through the State's eMaryland Marketplace Advantage (eMMA) e-Procurement system. Bids will not be accepted by email, fax, U.S. Mail, or hand delivery. You must be registered and Logged in to submit a bid on eMMA. Instructions on how to submit proposals electronically can be found at: https://procurement.maryland.gov/emma-qrgs/ Refer to Vendor QRG 4 – eMMA QRG Responding to Solicitations (IFB)",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-16-002fd4341456",
+          "quote": "| | | Questions Due (Closing) Date and Time: 06/01/2024 at 2:00 PM EDT Questions must be submitted in writing to thawkins@treasurer.state.md.us with the subject line, “QUESTION for Dell Laptop #E20P4600040”, and be submitted in writing via e-mail to the Procurement Officer no later than the date and time specified. | | | --- | --- | --- | --- | | Security Requirements (if applicable): | | 1. The Department reserves the right to purchase more or less than the specified quantity to the extent limited by funding. 2. The Master Contractor must provide the estimated ship date/lead time for each item listed in the PORFP FA I 3.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-4-3558cdbd0e51",
+          "quote": "for at least 9 0 days after the set due date above. 4. The Master Contractor must be an authorized reseller for Dell. The state reserves the right to request a Letter of Authorization (LOA) from the Manufacturer or Distributor. 5. Purchase new and unused equipment. 6. The Master Contractor shall not impose a restocking fee if an item is returned due to damage or incorrect product shipped. 7. ENERGY STAR certified product 8. The Master Contractor must provide a Mercury Affidavit: https://doit.maryland.gov/contracts/Documents/hardware_co ntract/hwmercury_affidavit.pdf 9. Delivery within 45 days of Award. Invoicing Instructions: 1. Email invoices to: STOaccountspayable@treasurer.state.md.us 2.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-5-4c7447312cee",
+          "quote": "within 45 days of Award. Invoicing Instructions: 1. Email invoices to: STOaccountspayable@treasurer.state.md.us 2. Invoice(s) shall be submitted within 10 days of delivering the equipment and shall include at a minimum the following: • Contractor name, mailing address, social security number or Federal Tax ID number, and phone number. • Reference the States assigned PORFP number. • Date, invoice number and amount due. 3. Proof of delivery including packing slip or delivery confirmation, and equipment serial numbers. Section 2 – Agency Point of Contact (POC) Information Agency / Division Name: State Treasurer's Office/ Information Technology",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 1,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-11-7856db4e7884",
+          "quote": "| | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | | Special Instructions: | | | LIMITED TO MASTER CONTRACTORS Only Master Contractors that are awarded a contract under the Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007, are eligible to submit a bid in response to this secondary competition Purchase Order Request for Proposal (PORFP). SMALL BUSINESS RESERVE (SBR) PROCUREMENT This is a Small Business Reserve Procurement for which award will be limited to certified small business vendors. Bids will not be accepted by email, fax, U.S.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-6-d31cc359a58a",
+          "quote": "Hardware Master Contract 3 Agency POC Name: Tamaira Hawkins Agency POC Phone Number: 410-260-7533 Agency POC Email Address: thawkins@treasurer.state.md .us Agency POC Fax: N/A Agency POC Mailing Address: MD State Treasurer’s Office 80 Calvert Street, Room 109 Annapolis, MD 21401 Section 3 – Delivery Address / Work Site POC Information (if different from above) Agency On-site Contact Name: James Simpson Agency On-site Phone Number: 410-260-6063 Agency On-site Email Address: jsimpson@treasurer.state.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-3-17f5c8844def",
+          "quote": "Hardware Master Contract 2 Questions Due (Closing) Date and Time: 06/01/2024 at 2:00 PM EDT Questions must be submitted in writing to thawkins@treasurer.state.md.us with the subject line, “QUESTION for Dell Laptop #E20P4600040”, and be submitted in writing via e-mail to the Procurement Officer no later than the date and time specified. Security Requirements (if applicable): 1. The Department reserves the right to purchase more or less than the specified quantity to the extent limited by funding. 2. The Master Contractor must provide the estimated ship date/lead time for each item listed in the PORFP FA I 3.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-20-c98ce3a395a7",
+          "quote": "| | | | | | | | | | | | | | | | | | | | | | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | | Agency POC Name: | | | | Tamaira Hawkins | | | | | Agency POC | | | | | | 410-260-7533 | | | | | | | | | | | | | | | Phone Number: | | | | | | | | | | | | Agency POC Email Address: | | | | thawkins@treasurer.state.md .us | | | | Agency POC Fax: | Agency POC | | | | | | N/A | | | | | | | | | | | | | | | Fax: | | | | | | | | | | | | Agency POC Mailing Address: | | | | MD State Treasurer’s Office 80 Calvert Street, Room 109 Annapolis, MD 21401 | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | Section 3 – Delivery Address / Work Site POC Information (if different from above) | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | Agency On-site Contact | | | James Simpson | | | | | Agency On-site | | | | | | 410-260-6063 | | | | | | | Name: | | | | | | | | Phone Number: | | | | | | | | | | | | | Agency On-site Email | | | jsimpson@treasurer.state.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-22-c4a9849198e4",
+          "quote": "SI# CC7802 Dell Latitude 5550 | | SI# CC7802 Dell Latitude 5550 *Laptops must be Microsoft Copilot ready* | | | | | SI# CC7802 | | | | | 30 | | | | | 06/10/2024 | | | | 2. Dell Limited Hardware Warranty Extended for all machines purchased - 3 Years | | | | | | Warranty certificate or Affidavit to be presented upon award | | | | Date of Delivery | | | | | 3 years following the date of delivery | | | | | | | | | | | | | | | | | | | | | | | | | | | | Section 5 – Evaluation Criteria – Technical Proposal | | | | | | | | | | | | | | | | | | |",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "467aafa5-9fb4-4cb3-87f5-fa28b857f4c4",
+          "file": "Dell_Laptop_Specs.pdf",
+          "page": 2,
+          "chunk_id": "467aafa5-9fb4-4cb3-87f5-fa28b857f4c4-v1-2-5ab3850e5c1f",
+          "quote": "3 62-7806 364-1846 364-4107 3 65-0257 3 66-0135 3 66-0141 3 71-0941 375-3088 CFI,Information,MIAS, Post Bur n,Factory Install CFI Titan Code for CFI FIDA or Bypass SI CFI,Information, Validation,Se lect Any Microsoft OS CFI Routing SKU Custom Asset Report Consigned Asset Tag CFI,Information Client,Only CFI,Information,CSRouting,Elig ible,Factory Install CFI,LBL,POLY,SML,CC7801,FACTOR Y INSTALL 383-0464 Page 4 Dell Marketing LP. U.S. only. Dell Marketing LP. is located at One Dell Way, Mail Stop 8129, Round Rock, TX 78682",
+          "doc_type": "specs",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.95,
+      "notes": "Generated from validated bid fields",
+      "status": "supported"
+    },
+    "Product Specification": {
+      "value": [
+        "30 Dell Latitude 5550 laptops, SI# CC7802; laptops must be Microsoft Copilot ready.",
+        "30 Dell Thunderbolt 4 Docks, model WD22TB4.",
+        "Dell Limited Hardware Warranty Extended for all machines purchased: three years from delivery; warranty certificate or affidavit to be presented upon award.",
+        "Equipment must be new and unused.",
+        "Product must be ENERGY STAR certified."
+      ],
+      "sources": [
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 3,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-22-c4a9849198e4",
+          "quote": "SI# CC7802 Dell Latitude 5550 | | SI# CC7802 Dell Latitude 5550 *Laptops must be Microsoft Copilot ready* | | | | | SI# CC7802 | | | | | 30 | | | | | 06/10/2024 | | | | 2. Dell Limited Hardware Warranty Extended for all machines purchased - 3 Years | | | | | | Warranty certificate or Affidavit to be presented upon award | | | | Date of Delivery | | | | | 3 years following the date of delivery | | | | | | | | | | | | | | | | | | | | | | | | | | | | Section 5 – Evaluation Criteria – Technical Proposal | | | | | | | | | | | | | | | | | | |",
+          "doc_type": "rfp",
+          "addendum_number": null
+        },
+        {
+          "document_id": "89275727-f34a-41ab-be56-cdef2a50f51e",
+          "file": "PORFP_-_Dell_Laptop_Final.pdf",
+          "page": 2,
+          "chunk_id": "89275727-f34a-41ab-be56-cdef2a50f51e-v1-16-002fd4341456",
+          "quote": "| | | Questions Due (Closing) Date and Time: 06/01/2024 at 2:00 PM EDT Questions must be submitted in writing to thawkins@treasurer.state.md.us with the subject line, “QUESTION for Dell Laptop #E20P4600040”, and be submitted in writing via e-mail to the Procurement Officer no later than the date and time specified. | | | --- | --- | --- | --- | | Security Requirements (if applicable): | | 1. The Department reserves the right to purchase more or less than the specified quantity to the extent limited by funding. 2. The Master Contractor must provide the estimated ship date/lead time for each item listed in the PORFP FA I 3.",
+          "doc_type": "rfp",
+          "addendum_number": null
+        }
+      ],
+      "confidence": 0.99,
+      "notes": "Extracted explicit product, quantity, readiness, warranty, condition, and certification requirements. No processor, memory, storage, or display specifications are stated in the supplied evidence.",
+      "status": "supported"
+    }
+  },
+  "addendum_changes": [],
+  "validation": {
+    "passed": 17,
+    "failed": 0,
+    "not_found": 3,
+    "issues": []
+  },
+  "run_metadata": {
+    "run_id": "1298e980-9461-4e61-b2bc-9d0d839eb861",
+    "knowledge_base_id": "rfp-intelligence",
+    "model": "gpt-6.1-sol",
+    "started_at": "2026-10-24T12:26:14.324727+00:00",
+    "completed_at": "2026-10-24T12:27:37.399026+00:00",
+    "token_usage": {
+      "input_tokens": 46081,
+      "output_tokens": 3885,
+      "reasoning_tokens": 519,
+      "total_tokens": 49966,
+      "estimated_cost_usd": 0.0
+    },
+    "latency_ms": {
+      "total_ms": 83078.579
+    }
+  }
+}

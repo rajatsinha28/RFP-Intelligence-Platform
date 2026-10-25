@@ -1,0 +1,845 @@
+{
+  "generated_at": "2026-10-24T06:23:57.721018+00:00",
+  "dataset": "evaluation/datasets/rfp_retrieval.json",
+  "sample_count": 16,
+  "top_k": 5,
+  "configurations": {
+    "dense": {
+      "recall_at_k": 0.9375,
+      "mrr": 0.8645833333333333,
+      "ndcg": 0.8831831095982161,
+      "samples": [
+        {
+          "bid_key": "Bid1",
+          "question": "What is the final proposal due date after all addenda?",
+          "expected_sources": [
+            "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf"
+          ],
+          "retrieved_sources": [
+            "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "What was the original solicitation due date before Addendum 2?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "When and how is the pre-proposal meeting held?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "What is the initial contract term and maximum duration with renewals?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "Which deployment services must vendors be able to perform?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "Which devices require laser etching according to Addendum 1?",
+          "expected_sources": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf"
+          ],
+          "retrieved_sources": [
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "How quickly must warranty repairs or replacements be performed?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "What proof must an authorized reseller submit with its proposal?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What is the closing date and time for the Dell laptop bid?",
+          "expected_sources": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+            "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 0.3333333333333333,
+          "ndcg": 0.5
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "How must responses to the Dell laptop PORFP be submitted?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What are the PORFP and eMMA project numbers?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What manufacturer authorization is required from the master contractor?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "Which environmental affidavit must the contractor provide?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "Contract_Affidavit.pdf",
+            "Mercury_Affidavit.pdf",
+            "Mercury_Affidavit.pdf",
+            "Mercury_Affidavit.pdf",
+            "Contract_Affidavit.pdf"
+          ],
+          "recall_at_k": 0.0,
+          "mrr": 0.0,
+          "ndcg": 0.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What is the required delivery window after award?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "Which laptop and docking station models and quantities are requested?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What extended hardware warranty is required for the purchased machines?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Dell_Laptop_Specs.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Dell_Laptop_Specs.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      ]
+    },
+    "hybrid": {
+      "recall_at_k": 1.0,
+      "mrr": 0.90625,
+      "ndcg": 0.9307993287946483,
+      "samples": [
+        {
+          "bid_key": "Bid1",
+          "question": "What is the final proposal due date after all addenda?",
+          "expected_sources": [
+            "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf"
+          ],
+          "retrieved_sources": [
+            "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "What was the original solicitation due date before Addendum 2?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "Student_and_Staff_Computing_Devices___SOURCING_168884___-_Bid_Information_-_3___BidNet_Direct.html",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "When and how is the pre-proposal meeting held?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "What is the initial contract term and maximum duration with renewals?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "Which deployment services must vendors be able to perform?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "Which devices require laser etching according to Addendum 1?",
+          "expected_sources": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf"
+          ],
+          "retrieved_sources": [
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "How quickly must warranty repairs or replacements be performed?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "What proof must an authorized reseller submit with its proposal?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What is the closing date and time for the Dell laptop bid?",
+          "expected_sources": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "How must responses to the Dell laptop PORFP be submitted?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What are the PORFP and eMMA project numbers?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What manufacturer authorization is required from the master contractor?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "Which environmental affidavit must the contractor provide?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "Mercury_Affidavit.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Contract_Affidavit.pdf",
+            "Mercury_Affidavit.pdf",
+            "Mercury_Affidavit.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 0.5,
+          "ndcg": 0.6309297535714575
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What is the required delivery window after award?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "Which laptop and docking station models and quantities are requested?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What extended hardware warranty is required for the purchased machines?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      ]
+    },
+    "hybrid_rerank": {
+      "recall_at_k": 1.0,
+      "mrr": 0.9083333333333333,
+      "ndcg": 0.9304283004521589,
+      "samples": [
+        {
+          "bid_key": "Bid1",
+          "question": "What is the final proposal due date after all addenda?",
+          "expected_sources": [
+            "Addendum 2 RFP JA-207652 Student and Staff Computing Devices.pdf"
+          ],
+          "retrieved_sources": [
+            "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "What was the original solicitation due date before Addendum 2?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Student_and_Staff_Computing_Devices___SOURCING_168884___-_Bid_Information_-_3___BidNet_Direct.html"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 0.3333333333333333,
+          "ndcg": 0.5
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "When and how is the pre-proposal meeting held?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "What is the initial contract term and maximum duration with renewals?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "Which deployment services must vendors be able to perform?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "Which devices require laser etching according to Addendum 1?",
+          "expected_sources": [
+            "Addendum 1 RFP JA-207652 Student and Staff Computing Devices.pdf"
+          ],
+          "retrieved_sources": [
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "How quickly must warranty repairs or replacements be performed?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid1",
+          "question": "What proof must an authorized reseller submit with its proposal?",
+          "expected_sources": [
+            "JA-207652 Student and Staff Computing Devices FINAL.pdf"
+          ],
+          "retrieved_sources": [
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf",
+            "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What is the closing date and time for the Dell laptop bid?",
+          "expected_sources": [
+            "Dell Laptops w_Extended Warranty - Bid Information - {3} _ BidNet Direct.html"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 0.2,
+          "ndcg": 0.38685280723454163
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "How must responses to the Dell laptop PORFP be submitted?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What are the PORFP and eMMA project numbers?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What manufacturer authorization is required from the master contractor?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "Which environmental affidavit must the contractor provide?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Mercury_Affidavit.pdf",
+            "Contract_Affidavit.pdf",
+            "Contract_Affidavit.pdf",
+            "Mercury_Affidavit.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What is the required delivery window after award?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "Which laptop and docking station models and quantities are requested?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        },
+        {
+          "bid_key": "Bid2",
+          "question": "What extended hardware warranty is required for the purchased machines?",
+          "expected_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf"
+          ],
+          "retrieved_sources": [
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Dell_Laptops_w_Extended_Warranty_-_Bid_Information_-_3___BidNet_Direct.html",
+            "PORFP_-_Dell_Laptop_Final.pdf",
+            "Dell_Laptop_Specs.pdf"
+          ],
+          "recall_at_k": 1.0,
+          "mrr": 1.0,
+          "ndcg": 1.0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "advance-rag"
+version = "1.0.0"
+description = "Production-oriented, grounded hybrid RAG platform"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+license = {text = "MIT"}
+authors = [{name = "Rajat Sinha"}]
+dependencies = [
+  "alembic>=1.14,<2",
+  "asyncpg>=0.30,<1",
+  "beautifulsoup4>=4.12,<5",
+  "celery[redis]>=5.4,<6",
+  "fastapi>=0.115,<1",
+  "httpx>=0.28,<1",
+  "langgraph>=0.4,<1",
+  "numpy>=2.1,<3",
+  "openai>=1.75,<3",
+  "pdf2image>=1.17,<2",
+  "pdfplumber>=0.11,<1",
+  "pillow>=11,<13",
+  "pinecone>=7,<11",
+  "pinecone-text>=0.10,<1",
+  "prometheus-client>=0.21,<1",
+  "psycopg[binary]>=3.2,<4",
+  "pydantic>=2.10,<3",
+  "pydantic-settings>=2.7,<3",
+  "pypdf>=5,<7",
+  "pytesseract>=0.3.13,<1",
+  "python-docx>=1.1,<2",
+  "python-multipart>=0.0.20,<1",
+  "readability-lxml>=0.8.1,<1",
+  "redis>=5.2,<7",
+  "sentence-transformers>=3.4,<6",
+  "sqlalchemy[asyncio]>=2.0.36,<3",
+  "structlog>=24.4,<26",
+  "tenacity>=9,<10",
+  "uvicorn[standard]>=0.34,<1",
+]
+
+[project.optional-dependencies]
+evaluation = [
+  "datasets>=3.2,<5",
+  "deepeval>=2.4,<4",
+  "ragas>=0.2.10,<0.4",
+]
+dev = [
+  "aiosqlite>=0.20,<1",
+  "mypy>=1.14,<2",
+  "pytest>=8.3,<9",
+  "pytest-asyncio>=0.25,<1",
+  "pytest-cov>=6,<8",
+  "respx>=0.22,<1",
+  "ruff>=0.9,<1",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app", "evaluation"]
+
+[tool.pytest.ini_options]
+addopts = "-q --strict-markers --disable-warnings --basetemp=.pytest-tmp"
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = [
+  "integration: requires local infrastructure",
+  "live: requires OpenAI and Pinecone credentials",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "ASYNC", "S"]
+ignore = ["B008", "S101"]
+
+[tool.mypy]
+python_version = "3.12"
+plugins = ["pydantic.mypy"]
+strict = true
+warn_unused_ignores = true
+exclude = ["alembic"]
+
+[[tool.mypy.overrides]]
+module = [
+  "celery.*",
+  "datasets.*",
+  "deepeval.*",
+  "pinecone_text.*",
+  "pytesseract.*",
+  "ragas.*",
+  "readability.*",
+]
+ignore_missing_imports = true

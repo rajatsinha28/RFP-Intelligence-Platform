@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-10-24T06:24:37.648577+00:00",
+  "knowledge_base_id": "rfp-intelligence",
+  "sample_count": 1,
+  "passed": true,
+  "sync_sse_parity_rate": 1.0,
+  "samples": [
+    {
+      "bid_key": "Bid1",
+      "question": "Which vendor won the contract and what was the final awarded price?",
+      "answer": "I couldn't find this information in the provided documents.",
+      "status": "not_found",
+      "route": "SIMPLE_RAG",
+      "citations": [],
+      "citation_count": 0,
+      "attempts": 1,
+      "sync_sse_parity": true,
+      "negative_control": true,
+      "passed": true
+    }
+  ]
+}

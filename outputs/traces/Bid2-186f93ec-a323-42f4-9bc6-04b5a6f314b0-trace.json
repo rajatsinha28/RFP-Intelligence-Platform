@@ -1,0 +1,179 @@
+{
+  "run_id": "186f93ec-a323-42f4-9bc6-04b5a6f314b0",
+  "bid_id": "Bid2",
+  "generated_at": "2026-10-23T19:27:27.923555+00:00",
+  "steps": [
+    {
+      "agent": "orchestrator_planner",
+      "stage": "plan",
+      "status": "completed",
+      "attempt": 1,
+      "input_summary": {
+        "bid_key": "Bid2",
+        "document_count": 5
+      },
+      "tool_calls": [],
+      "output_summary": {
+        "parallel_specialists": 3,
+        "required_fields": 20
+      },
+      "token_usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "estimated_cost_usd": 0.0
+      },
+      "latency_ms": 0,
+      "error": null
+    },
+    {
+      "agent": "product_specifications",
+      "stage": "retrieve_and_extract",
+      "status": "completed",
+      "attempt": 1,
+      "input_summary": {
+        "fields": [
+          "Model_no",
+          "Part_no",
+          "Product",
+          "Product Specification"
+        ]
+      },
+      "tool_calls": [
+        {
+          "tool": "hybrid_search",
+          "calls": 4
+        }
+      ],
+      "output_summary": {
+        "field_count": 4,
+        "evidence_chunks": 11
+      },
+      "token_usage": {
+        "input_tokens": 7423,
+        "output_tokens": 787,
+        "reasoning_tokens": 252,
+        "total_tokens": 8210,
+        "estimated_cost_usd": 0.0
+      },
+      "latency_ms": 61026.67,
+      "error": null
+    },
+    {
+      "agent": "dates_logistics",
+      "stage": "retrieve_and_extract",
+      "status": "completed",
+      "attempt": 1,
+      "input_summary": {
+        "fields": [
+          "Bid Number",
+          "Title",
+          "Due Date",
+          "Bid Submission Type",
+          "Term of Bid",
+          "Pre Bid Meeting",
+          "Installation",
+          "Delivery Date"
+        ]
+      },
+      "tool_calls": [
+        {
+          "tool": "hybrid_search",
+          "calls": 8
+        }
+      ],
+      "output_summary": {
+        "field_count": 8,
+        "evidence_chunks": 17
+      },
+      "token_usage": {
+        "input_tokens": 13638,
+        "output_tokens": 1008,
+        "reasoning_tokens": 50,
+        "total_tokens": 14646,
+        "estimated_cost_usd": 0.0
+      },
+      "latency_ms": 65230.084,
+      "error": null
+    },
+    {
+      "agent": "commercial_compliance",
+      "stage": "retrieve_and_extract",
+      "status": "completed",
+      "attempt": 1,
+      "input_summary": {
+        "fields": [
+          "Bid Bond Requirement",
+          "Payment Terms",
+          "Any Additional Documentation Required",
+          "MFG for Registration",
+          "Contract or Cooperative to use",
+          "contact_info",
+          "company_name"
+        ]
+      },
+      "tool_calls": [
+        {
+          "tool": "hybrid_search",
+          "calls": 7
+        }
+      ],
+      "output_summary": {
+        "field_count": 7,
+        "evidence_chunks": 23
+      },
+      "token_usage": {
+        "input_tokens": 10741,
+        "output_tokens": 1099,
+        "reasoning_tokens": 130,
+        "total_tokens": 11840,
+        "estimated_cost_usd": 0.0
+      },
+      "latency_ms": 68652.879,
+      "error": null
+    },
+    {
+      "agent": "addendum_reconciliation",
+      "stage": "reconcile",
+      "status": "completed",
+      "attempt": 1,
+      "input_summary": {},
+      "tool_calls": [],
+      "output_summary": {
+        "changes": 0
+      },
+      "token_usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "reasoning_tokens": 0,
+        "total_tokens": 0,
+        "estimated_cost_usd": 0.0
+      },
+      "latency_ms": 2353.548,
+      "error": null
+    },
+    {
+      "agent": "qa_report",
+      "stage": "assemble",
+      "status": "completed",
+      "attempt": 1,
+      "input_summary": {},
+      "tool_calls": [],
+      "output_summary": {
+        "passed": 15,
+        "failed": 0,
+        "not_found": 5
+      },
+      "token_usage": {
+        "input_tokens": 963,
+        "output_tokens": 822,
+        "reasoning_tokens": 133,
+        "total_tokens": 1785,
+        "estimated_cost_usd": 0.0
+      },
+      "latency_ms": 15148.143,
+      "error": null
+    }
+  ]
+}

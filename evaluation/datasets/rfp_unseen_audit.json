@@ -1,0 +1,254 @@
+{
+  "audit_id": "rfp-unseen-audit-2026-10-24",
+  "samples": [
+    {
+      "id": "bid1-supported-01",
+      "bid_key": "Bid1",
+      "question": "If a vendor submits a paper proposal, how many originals are required, how must the package be sealed, and where must it be delivered?",
+      "expected_answer": "One original hard copy in a sealed envelope, delivered by mail, FedEx, UPS, or equivalent to Dallas ISD Procurement Services, 9400 N Central Expwy, Suite 1510, Attn: Staff Member and BID NUMBER, Dallas, TX 75231.",
+      "expected_answer_keywords": ["one", "original hard copy", "sealed envelope", "9400 N Central", "75231"],
+      "expected_evidence_keywords": ["one (1) original hard copy", "sealed envelope", "9400 N Central Expwy"],
+      "expected_citations": [
+        {"source": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf", "page": 9}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid1-supported-02",
+      "bid_key": "Bid1",
+      "question": "What reference information must bidders provide, and which organization or employees cannot be used as references?",
+      "expected_answer": "Three business references with the organization name, address, phone number, contact person, and email address; Dallas ISD and Dallas ISD employees cannot be used as references.",
+      "expected_answer_keywords": ["three", "address", "phone", "contact", "email", "Dallas ISD employees"],
+      "expected_evidence_keywords": ["three business references", "contact person", "DO NOT INCLUDE DALLAS ISD"],
+      "expected_citations": [
+        {"source": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf", "page": 12}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid1-supported-03",
+      "bid_key": "Bid1",
+      "question": "After the district pays a prime vendor, what deadline and retainage cap apply to payments made to subcontractors?",
+      "expected_answer": "Subcontractors must be paid within 10 days after the prime vendor receives District payment, and subcontractor retainage may not exceed 5%.",
+      "expected_answer_keywords": ["10 days", "5%"],
+      "expected_evidence_keywords": ["within 10 days", "retainage greater than 5%"],
+      "expected_citations": [
+        {"source": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf", "page": 51}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid1-supported-04",
+      "bid_key": "Bid1",
+      "question": "List the ten device categories that Dallas ISD uses for evaluation pricing.",
+      "expected_answer": "Tier 1 Small Student Chromebook Laptop (Touch); Tier 2 Large Student Chromebook Laptop (Non-Touch); Tier 3 Student Windows Laptop; Student Tablet; Tier 1 Staff Laptop; Tier 2 Staff Laptop; Tier 1 Staff Basic Desktop; Tier 2 Staff Professional Desktop; Display Monitor - Touch; Display Monitor - Non-Touch.",
+      "expected_answer_keywords": ["Tier 1 Small Student Chromebook", "Tier 2 Large Student Chromebook", "Tier 3 Student Windows Laptop", "Student Tablet", "Tier 1 Staff Laptop", "Tier 2 Staff Laptop", "Tier 1 Staff Basic Desktop", "Tier 2 Staff Professional Desktop", "Display Monitor - Touch", "Display Monitor - Non-Touch"],
+      "expected_evidence_keywords": ["Tier 1 Small Student Chromebook", "Tier 3 Student Windows Laptop", "Tier 2 Staff Professional Desktop", "Display Monitor - Non-Touch"],
+      "expected_citations": [
+        {"source": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf", "page": 35}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid1-supported-05",
+      "bid_key": "Bid1",
+      "question": "According to Addendum 1, what must vendors enter in the page 36 response-value field?",
+      "expected_answer": "The proposed device specifications, specifically the make and model.",
+      "expected_answer_keywords": ["specifications", "make", "model"],
+      "expected_evidence_keywords": ["specs", "proposed make and model"],
+      "expected_citations": [
+        {"source": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf", "page": 1}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid1-supported-06",
+      "bid_key": "Bid1",
+      "question": "Which solicitation addenda must be acknowledged and returned with the proposal?",
+      "expected_answer": "Addendum 1 and Addendum 2 must both be acknowledged and returned with the proposal.",
+      "expected_answer_keywords": ["Addendum 1", "Addendum 2", "proposal"],
+      "expected_evidence_keywords": ["ACKNOWLEDGE", "SUBMIT A COPY", "proposal"],
+      "expected_citations": [
+        {"source": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf", "page": 5},
+        {"source": "Addendum_2_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf", "page": 1}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid1-supported-07",
+      "bid_key": "Bid1",
+      "question": "What optional purchasing cooperative may ride the resulting Dallas ISD agreement?",
+      "expected_answer": "The Educational Purchasing Cooperative of North Texas (EPCNT).",
+      "expected_answer_keywords": ["Educational Purchasing Cooperative of North Texas", "EPCNT"],
+      "expected_evidence_keywords": ["Educational Purchasing Cooperative of North Texas", "EPCNT"],
+      "expected_citations": [
+        {"source": "JA-207652_Student_and_Staff_Computing_Devices_FINAL.pdf", "page": 19}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid1-negative-01",
+      "bid_key": "Bid1",
+      "question": "What is the chemical symbol for gold?",
+      "expected_answer": "I couldn't find this information in the provided documents.",
+      "expected_answer_keywords": [],
+      "expected_evidence_keywords": [],
+      "expected_citations": [],
+      "expected_statuses": ["not_found", "insufficient_evidence"],
+      "negative_control": true
+    },
+    {
+      "id": "bid1-negative-02",
+      "bid_key": "Bid1",
+      "question": "Who composed The Four Seasons?",
+      "expected_answer": "I couldn't find this information in the provided documents.",
+      "expected_answer_keywords": [],
+      "expected_evidence_keywords": [],
+      "expected_citations": [],
+      "expected_statuses": ["not_found", "insufficient_evidence"],
+      "negative_control": true
+    },
+    {
+      "id": "bid1-negative-03",
+      "bid_key": "Bid1",
+      "question": "How many moons does Mars have?",
+      "expected_answer": "I couldn't find this information in the provided documents.",
+      "expected_answer_keywords": [],
+      "expected_evidence_keywords": [],
+      "expected_citations": [],
+      "expected_statuses": ["not_found", "insufficient_evidence"],
+      "negative_control": true
+    },
+    {
+      "id": "bid2-supported-01",
+      "bid_key": "Bid2",
+      "question": "What accounts-payable email address receives invoices, and within how many days of delivery must they be submitted?",
+      "expected_answer": "Invoices must be emailed to STOaccountspayable@treasurer.state.md.us within 10 days of equipment delivery.",
+      "expected_answer_keywords": ["STOaccountspayable@treasurer.state.md.us", "10 days"],
+      "expected_evidence_keywords": ["STOaccountspayable@treasurer.state.md.us", "within 10 days"],
+      "expected_citations": [
+        {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 2}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid2-supported-02",
+      "bid_key": "Bid2",
+      "question": "How long must submitted quotes remain valid after the due date?",
+      "expected_answer": "At least 90 days after the due date.",
+      "expected_answer_keywords": ["90 days"],
+      "expected_evidence_keywords": ["valid for at least 90 days"],
+      "expected_citations": [
+        {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 2}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid2-supported-03",
+      "bid_key": "Bid2",
+      "question": "Which master contract name and number determine eligibility for this secondary competition?",
+      "expected_answer": "The Desktop, Laptop and Tablet 2015 Master Contract, 060B5400007.",
+      "expected_answer_keywords": ["Desktop, Laptop and Tablet 2015", "060B5400007"],
+      "expected_evidence_keywords": ["Desktop, Laptop and Tablet 2015 Master Contract", "060B5400007"],
+      "expected_citations": [
+        {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 1}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid2-supported-04",
+      "bid_key": "Bid2",
+      "question": "Identify the agency point of contact, including phone number and email address.",
+      "expected_answer": "Tamaira Hawkins, 410-260-7533, thawkins@treasurer.state.md.us.",
+      "expected_answer_keywords": ["Tamaira Hawkins", "410-260-7533", "thawkins@treasurer.state.md.us"],
+      "expected_evidence_keywords": ["Tamaira Hawkins", "410-260-7533", "thawkins@treasurer.state.md"],
+      "expected_citations": [
+        {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 3}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid2-supported-05",
+      "bid_key": "Bid2",
+      "question": "What condition and energy-efficiency certification are required for supplied equipment?",
+      "expected_answer": "The equipment must be new and unused, and the product must be ENERGY STAR certified.",
+      "expected_answer_keywords": ["new and unused", "ENERGY STAR"],
+      "expected_evidence_keywords": ["new and unused equipment", "ENERGY STAR certified"],
+      "expected_citations": [
+        {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 2}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid2-supported-06",
+      "bid_key": "Bid2",
+      "question": "Which four Dell part numbers are listed in the supporting laptop specifications?",
+      "expected_answer": "364-1846, 364-4107, 375-3088, and 383-0464.",
+      "expected_answer_keywords": ["364-1846", "364-4107", "375-3088", "383-0464"],
+      "expected_evidence_keywords": ["364-1846", "364-4107", "375-3088", "383-0464"],
+      "expected_citations": [
+        {"source": "Dell_Laptop_Specs.pdf", "page": 2}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid2-supported-07",
+      "bid_key": "Bid2",
+      "question": "What shipping-timeline information must the contractor provide for every PORFP line item?",
+      "expected_answer": "The estimated ship date or lead time for each item listed in the PORFP.",
+      "expected_answer_keywords": ["estimated ship date", "lead time", "each item"],
+      "expected_evidence_keywords": ["estimated ship date/lead time", "each item"],
+      "expected_citations": [
+        {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 2}
+      ],
+      "expected_statuses": ["answered"],
+      "negative_control": false
+    },
+    {
+      "id": "bid2-negative-01",
+      "bid_key": "Bid2",
+      "question": "What is the tallest mountain in Africa?",
+      "expected_answer": "I couldn't find this information in the provided documents.",
+      "expected_answer_keywords": [],
+      "expected_evidence_keywords": [],
+      "expected_citations": [],
+      "expected_statuses": ["not_found", "insufficient_evidence"],
+      "negative_control": true
+    },
+    {
+      "id": "bid2-negative-02",
+      "bid_key": "Bid2",
+      "question": "Which element has atomic number 8?",
+      "expected_answer": "I couldn't find this information in the provided documents.",
+      "expected_answer_keywords": [],
+      "expected_evidence_keywords": [],
+      "expected_citations": [],
+      "expected_statuses": ["not_found", "insufficient_evidence"],
+      "negative_control": true
+    },
+    {
+      "id": "bid2-negative-03",
+      "bid_key": "Bid2",
+      "question": "Who wrote The Odyssey?",
+      "expected_answer": "I couldn't find this information in the provided documents.",
+      "expected_answer_keywords": [],
+      "expected_evidence_keywords": [],
+      "expected_citations": [],
+      "expected_statuses": ["not_found", "insufficient_evidence"],
+      "negative_control": true
+    }
+  ]
+}

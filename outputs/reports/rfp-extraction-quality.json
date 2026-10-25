@@ -1,0 +1,389 @@
+{
+  "generated_at": "2026-10-24T06:23:08.235093+00:00",
+  "gold": "evaluation/datasets/rfp_extraction_gold.json",
+  "field_count": 40,
+  "passed_fields": 39,
+  "field_accuracy": 0.975,
+  "citation_pass_rate": 0.96875,
+  "acceptance_threshold": 0.85,
+  "quality_gate_pass": true,
+  "failures": [
+    {
+      "bid_key": "Bid2",
+      "field": "Part_no",
+      "expected_status": "supported",
+      "actual_status": "not_found",
+      "missing_keywords": [
+        "364-1846",
+        "383-0464"
+      ],
+      "citation_pass": false,
+      "passed": false
+    }
+  ],
+  "fields": [
+    {
+      "bid_key": "Bid1",
+      "field": "Bid Number",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Title",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Due Date",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Bid Submission Type",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Term of Bid",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Pre Bid Meeting",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Installation",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Bid Bond Requirement",
+      "expected_status": "not_found",
+      "actual_status": "not_found",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Delivery Date",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Payment Terms",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Any Additional Documentation Required",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "MFG for Registration",
+      "expected_status": "not_found",
+      "actual_status": "not_found",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Contract or Cooperative to use",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Model_no",
+      "expected_status": "not_found",
+      "actual_status": "not_found",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Part_no",
+      "expected_status": "not_found",
+      "actual_status": "not_found",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Product",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "contact_info",
+      "expected_status": "not_found",
+      "actual_status": "not_found",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "company_name",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Bid Summary",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid1",
+      "field": "Product Specification",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Bid Number",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Title",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Due Date",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Bid Submission Type",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Term of Bid",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Pre Bid Meeting",
+      "expected_status": "not_found",
+      "actual_status": "not_found",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Installation",
+      "expected_status": "not_found",
+      "actual_status": "not_found",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Bid Bond Requirement",
+      "expected_status": "not_found",
+      "actual_status": "not_found",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Delivery Date",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Payment Terms",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Any Additional Documentation Required",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "MFG for Registration",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Contract or Cooperative to use",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Model_no",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Part_no",
+      "expected_status": "supported",
+      "actual_status": "not_found",
+      "missing_keywords": [
+        "364-1846",
+        "383-0464"
+      ],
+      "citation_pass": false,
+      "passed": false
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Product",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "contact_info",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "company_name",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Bid Summary",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    },
+    {
+      "bid_key": "Bid2",
+      "field": "Product Specification",
+      "expected_status": "supported",
+      "actual_status": "supported",
+      "missing_keywords": [],
+      "citation_pass": true,
+      "passed": true
+    }
+  ]
+}

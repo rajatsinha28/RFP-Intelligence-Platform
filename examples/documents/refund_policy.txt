@@ -1,0 +1,8 @@
+# Example Refund Policy
+
+Customers may request a refund within 30 calendar days of purchase. The item must be returned in its original condition.
+
+## Request Process
+
+The customer must submit the refund request through the support portal and include the order number. Approved refunds are returned to the original payment method.
+
