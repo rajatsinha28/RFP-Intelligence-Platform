@@ -1,3 +1,6 @@
+# Application Walkthrough
+Video:https://youtu.be/3790Akpe55k
+
 # Advance RAG
 
 A production-oriented, evidence-first Retrieval-Augmented Generation platform for local use. It ingests heterogeneous documents, stores dense and BM25 sparse vectors in Pinecone, performs adaptive hybrid retrieval, routes simple and complex questions to configurable OpenAI models, validates claim-level citations, and refuses to answer when the indexed evidence is insufficient.
