@@ -32,7 +32,9 @@ class PineconeVectorStore:
         self.region = region
         self.auto_create = auto_create
         self.query_timeout_seconds = query_timeout_seconds
-        self._client = Pinecone(api_key=api_key) if api_key else None
+        self._client = (
+            Pinecone(api_key=api_key, timeout=query_timeout_seconds) if api_key else None
+        )
         self._index: Any = None
         self._bm25 = BM25Encoder.default()
 

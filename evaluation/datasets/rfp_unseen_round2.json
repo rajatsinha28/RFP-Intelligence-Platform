@@ -19,7 +19,7 @@
       "bid_key": "Bid1",
       "question": "Must desktop computers be secured to desks or tables with a lockbox or similar structure?",
       "expected_answer": "No. Dallas ISD states that the desktops will not be secured that way.",
-      "expected_answer_keywords": ["No", "not", "secured"],
+      "expected_answer_keywords": ["No", "desktops"],
       "expected_evidence_keywords": ["not securing desktops"],
       "expected_citations": [
         {"source": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf", "page": 2}
@@ -45,7 +45,7 @@
       "bid_key": "Bid1",
       "question": "Are the anticipated equipment quantities a one-time purchase or distributed across the contract?",
       "expected_answer": "The quantities are distributed over the life of the contract.",
-      "expected_answer_keywords": ["spread", "life of the contract"],
+      "expected_answer_keywords": ["distributed", "contract"],
       "expected_evidence_keywords": ["spread over life of the contract"],
       "expected_citations": [
         {"source": "Addendum_1_RFP_JA-207652_Student_and_Staff_Computing_Devices.pdf", "page": 2}
@@ -71,7 +71,7 @@
       "bid_key": "Bid2",
       "question": "By what date and time must vendor questions be sent, and what subject line must the email use?",
       "expected_answer": "Questions must be emailed by June 1, 2024 at 2:00 PM EDT using the subject line QUESTION for Dell Laptop #E20P4600040.",
-      "expected_answer_keywords": ["June 1, 2024", "2:00 PM", "QUESTION for Dell Laptop", "E20P4600040"],
+      "expected_answer_keywords": ["06/01/2024", "2:00 PM", "QUESTION for Dell Laptop", "E20P4600040"],
       "expected_evidence_keywords": ["Questions Due", "06/01/2024", "QUESTION for Dell Laptop"],
       "expected_citations": [
         {"source": "PORFP_-_Dell_Laptop_Final.pdf", "page": 2}

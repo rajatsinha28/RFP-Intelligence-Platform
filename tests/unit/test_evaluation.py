@@ -27,5 +27,13 @@ def test_keyword_coverage_normalizes_numbers() -> None:
     )
 
 
+def test_keyword_coverage_matches_spelled_and_numeric_numbers() -> None:
+    assert keyword_coverage("longer than five business days", ["5 business days"]) == 1
+
+
+def test_keyword_coverage_matches_written_and_numeric_dates() -> None:
+    assert keyword_coverage("Due June 1, 2024", ["06/01/2024"]) == 1
+
+
 def test_ndcg_does_not_reward_duplicate_citations_above_one() -> None:
     assert ndcg(["book.pdf", "book.pdf"], {"book.pdf"}) == 1.0

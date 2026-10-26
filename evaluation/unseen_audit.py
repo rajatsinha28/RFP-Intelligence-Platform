@@ -13,11 +13,12 @@ from typing import Any
 import httpx
 from sqlalchemy import select
 
+from app.config import get_settings
 from app.core.hashing import normalize_query, stable_hash
 from app.db import get_session_factory
 from app.models import Bid, Document, QueryLog
 from app.query.graph import FALLBACK_TEXT
-from app.services import get_services
+from evaluation.metrics import keyword_coverage
 
 
 def question_hash(question: str) -> str:
@@ -104,10 +105,7 @@ def _canonical_citations(response: dict[str, Any]) -> list[tuple[str, int | None
 
 
 def _keyword_coverage(text: str, keywords: list[str]) -> float:
-    if not keywords:
-        return 1.0
-    normalized = normalize_query(text)
-    return sum(normalize_query(keyword) in normalized for keyword in keywords) / len(keywords)
+    return keyword_coverage(text, keywords)
 
 
 def _expected_sources_present(
@@ -202,6 +200,8 @@ async def _assert_unseen(samples: list[dict[str, Any]], knowledge_base_id: str) 
 async def _clear_sample_caches(
     samples: list[dict[str, Any]], context: AuditContext, knowledge_base_id: str
 ) -> int:
+    from app.services import get_services
+
     services = get_services()
     kb_version = await services.cache.kb_version(knowledge_base_id)
     keys: set[bytes | str] = set()
@@ -254,7 +254,7 @@ async def run_audit(
         await _clear_sample_caches(samples, context, knowledge_base_id) if fresh_query_cache else 0
     )
 
-    settings = get_services().settings
+    settings = get_settings()
     headers: dict[str, str] = {}
     if settings.app_api_key:
         headers["X-API-Key"] = settings.app_api_key.get_secret_value()

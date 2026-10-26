@@ -6,6 +6,32 @@ from statistics import mean
 from typing import Any
 
 TOKEN = re.compile(r"[A-Za-z0-9_'-]+")
+NUMBER_WORDS = {
+    "one": "1",
+    "two": "2",
+    "three": "3",
+    "four": "4",
+    "five": "5",
+    "six": "6",
+    "seven": "7",
+    "eight": "8",
+    "nine": "9",
+    "ten": "10",
+}
+MONTHS = {
+    "january": 1,
+    "february": 2,
+    "march": 3,
+    "april": 4,
+    "may": 5,
+    "june": 6,
+    "july": 7,
+    "august": 8,
+    "september": 9,
+    "october": 10,
+    "november": 11,
+    "december": 12,
+}
 
 
 def normalize_for_match(text: str) -> str:
@@ -13,6 +39,23 @@ def normalize_for_match(text: str) -> str:
     # Preserve semantic equivalence between common printed and spoken platform
     # notation without making evaluation depend on a particular answer style.
     normalized = re.sub(r"\bnine and three quarters\b", "9¾", normalized)
+    for word, digit in NUMBER_WORDS.items():
+        normalized = re.sub(rf"\b{word}\b", digit, normalized)
+    normalized = re.sub(
+        r"\b(\d{1,2})/(\d{1,2})/(\d{4})\b",
+        lambda match: (
+            f"{int(match.group(3)):04d} {int(match.group(1)):02d} {int(match.group(2)):02d}"
+        ),
+        normalized,
+    )
+    for month, number in MONTHS.items():
+        normalized = re.sub(
+            rf"\b{month}\s+(\d{{1,2}}),?\s+(\d{{4}})\b",
+            lambda match, month_number=number: (
+                f"{int(match.group(2)):04d} {month_number:02d} {int(match.group(1)):02d}"
+            ),
+            normalized,
+        )
     return normalized
 
 

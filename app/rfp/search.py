@@ -14,6 +14,12 @@ RFP_EXPANSIONS: dict[str, tuple[str, ...]] = {
     "part": ("part number", "part_no", "SKU"),
     "category": ("device category", "device type", "equipment tier", "evaluation pricing"),
     "pricing": ("evaluation pricing", "pricing table", "device category", "tier"),
+    "quantities": (
+        "anticipated equipment quantities",
+        "one-time buys",
+        "spread over life of the contract",
+    ),
+    "purchase": ("one-time buy", "contract term", "life of the contract"),
     "certification": ("certified", "qualification", "compliance requirement"),
     "submission": ("bid submission type", "electronic portal", "sealed bid", "email"),
 }

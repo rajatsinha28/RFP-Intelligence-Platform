@@ -1,5 +1,6 @@
 .env
 .venv/
+.video-tools/
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -21,6 +22,7 @@ reports/*
 !reports/.gitkeep
 outputs/reports/coverage.json
 outputs/reports/*baseline*.json
+outputs/demo/
 .idea/
 .vscode/
 *.log
